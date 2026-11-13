@@ -1,6 +1,6 @@
 # When to Seek Landmarks? Learning Continuous Control with Sparse Landmark Localization
 
-**Chinmay Mundane · Amith Manoharan · Arun Kumar Singh**  
+**Chinmay Mundane, Amith Manoharan, Arun Kumar Singh**  
 University of Tartu, Estonia
 
 [GitHub](https://github.com/ChinmayMundane/LocRL)
