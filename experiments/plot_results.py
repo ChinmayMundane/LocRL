@@ -15,7 +15,7 @@ def main():
     parser.add_argument('--show', action='store_true', help='Display Figure 2 without saving files.')
     parser.add_argument('--save', action='store_true', help='Save PDF/SVG/PNG (also the default without --show).')
     args = parser.parse_args()
-    out = ROOT / 'outputs/plots' 
+    out = ROOT / 'outputs/plots'
     data, _, _ = load_data()
     plt.rcParams.update({'font.size': 10, 'pdf.fonttype': 42, 'svg.fonttype': 'none'})
     fig, axes = plt.subplots(1, 4, figsize=(12, 3.2), layout='constrained')

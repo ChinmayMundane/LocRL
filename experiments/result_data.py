@@ -80,4 +80,3 @@ def load_data():
                 for path in [csv, summary]:
                     manifest.append(dict(path=str(path.relative_to(ROOT)), sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
     return pd.DataFrame(rows), manifest, canonical_config
-
