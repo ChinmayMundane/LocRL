@@ -1,0 +1,47 @@
+# Seven-preference extension of the frozen matched-setting SAC experiment.
+# Existing 0.2, 0.5, and 0.8 models/results are reused by their original names.
+protocol_version: 3
+method: fixed_scalar_sac_specialist_bank
+entrypoint_dir: fixed_sac
+experiment_name: scalar_sac_seven_preferences_matched_entropy_150k
+model_prefix: scalar_sac_specialist_matched_entropy_150k
+output_root: outputs/fixed_sac
+seeds: [11, 22, 33, 44, 55]
+preferences:
+  - [1.0, 0.0]
+  - [0.8, 0.2]
+  - [0.6, 0.4]
+  - [0.5, 0.5]
+  - [0.4, 0.6]
+  - [0.2, 0.8]
+  - [0.0, 1.0]
+model_name_overrides:
+  nav_0p50_loc_0p50: scalar_sac_matched_entropy_150k_seed_{seed}
+total_timesteps: 150000
+checkpoint_freq: 50000
+eval_freq: 10000
+eval_episodes: 10
+validation_eval_seed: 46000
+validation_count: 150
+deterministic_torch: false
+training_collision_abort_steps: 40
+reward_scale: 1.0
+entropy_coefficient: 0.002
+objective_scales: [100.0, 100.0]
+learning_rate: 0.0003
+net_arch: [256, 256]
+batch_size: 128
+buffer_size: 100000
+learning_starts: 5000
+gamma: 0.99
+tau: 0.005
+gradient_updates: 1
+uncertainty_penalty: 0.5
+information_gain_reward_scale: 15.0
+landmark_progress_reward_scale: 2.0
+terminal_uncertainty_penalty: 10.0
+shared_progress_reward_scale: 0.5
+shared_step_penalty: 0.05
+reference_point: [-5.0, -5.0]
+development_split: validation
+locked_test_config: configs/experiments/final_test.yaml

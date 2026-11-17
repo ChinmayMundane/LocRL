@@ -1,25 +1,90 @@
-# When to Seek Landmarks? Learning Continuous Control with Sparse Landmark Localization
+# When to Seek Landmarks?
 
-**Chinmay Mundane, Amith Manoharan, Arun Kumar Singh**  
-University of Tartu, Estonia
+Learning continuous robot control with sparse landmark localization. Includes
+CAPQL, preference-conditioned SAC (PC-SAC), fixed-weight SAC, and three RRT* planners.
 
-[GitHub](https://github.com/ChinmayMundane/LocRL)
+## Setup
 
-![Robot navigation with sparse landmark localization](assets/runs_teaser_aruco_goal.gif)
+Python 3.10, tested on Linux. Run commands from the repository root.
 
-## Overview
+```bash
+python3.10 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-Robots navigating with onboard odometry accumulate localization error. Sparse landmarks can provide corrective measurements, but reaching them may require a detour. **LocRL** studies when a robot should seek a landmark and when it should continue toward its goal.
+Required MORL-Baselines modules are included in `morl_import/`.
 
-We formulate navigation as a continuous-control partially observable Markov decision process (POMDP). A belief-aware Soft Actor–Critic (SAC) policy uses local semantic observations and extended Kalman filter (EKF) features to balance goal progress and localization uncertainty. We also study preference-conditioned multi-objective reinforcement learning with CAPQL and PC-SAC to trade off navigation and localization objectives.
 
-## Highlights
+## Download all weights and evaluate
 
-- **Simulation:** Balanced fixed-weight SAC achieves 96.6% success across five seeds and 200 unseen maps, compared with 89.5%–91.8% for the evaluated RRT* planning baselines.
-- **Uncertainty:** Covariance area under the curve is 55.2% lower than Dubins RRT*; success remains 92.7% on hard maps.
-- **Preference-conditioned control:** CAPQL achieves lower mean position error than PC-SAC at all three evaluated preferences.
-- **Hardware:** Experiments on a Clearpath Jackal demonstrate navigation with landmark-restricted pose corrections and EKF belief tracking.
+Download the [50 trained models (about 473 MB)](https://owncloud.ut.ee/owncloud/s/Aa8n3TsLmkAG32f).
+Extract the download and place the **contents of `model_logs/` inside `models/`**,
+keeping the downloaded folder names. For example:
+`models/capql_recovery40_150k_seed_11/final_model.tar`.
 
-## Repository status
+Rerun the 200-map evaluation across all five seeds and configured preferences:
 
-This repository currently contains the project overview and teaser. Training and evaluation code are not included yet.
+```bash
+python experiments/run_conditioned.py final-test --execute-final-test
+python experiments/run_conditioned.py final-test \
+  --config configs/experiments/pc_sac.yaml --execute-final-test
+python experiments/run_fixed_sac_preferences.py final-test --execute-final-test
+python experiments/run_conditioned.py final-test \
+  --config configs/experiments/ablation_no_landmark.yaml --execute-final-test
+```
+
+No retraining is needed. New evaluations go to `outputs/`; the table commands
+below read the bundled paper records in `results/`.
+
+## Train
+
+```bash
+# CAPQL
+python experiments/run_conditioned.py train --seeds 11
+
+# PC-SAC
+python experiments/run_conditioned.py train \
+  --config configs/experiments/pc_sac.yaml --seeds 11
+
+# Fixed SAC: one policy per preference
+python experiments/run_fixed_sac_preferences.py train --seeds 11
+```
+
+Replace `train` with `validate` to evaluate trained models on validation maps.
+Omit `--seeds 11` to use all five seeds. Each model trains for 150,000 steps.
+New models go to `models/`; TensorBoard logs go to `logs/`.
+
+## Paper results
+
+Results in the paper can be viewed by:
+
+```bash
+python experiments/summarize_final_study.py
+python experiments/analyze_zero_contact_results.py
+python experiments/plot_results.py --show
+python experiments/summarize_final_study.py --table 3
+python experiments/summarize_final_study.py --table 4
+```
+
+## Repository structure
+
+```text
+environment/    # Simulator, EKF, observations and rewards
+capql/          # Preference-conditioned vector-critic controller
+pc_sac/         # Preference-conditioned scalar SAC
+fixed_sac/      # Fixed-weight SAC
+planners/       # Dubins, landmark-aware and belief-space RRT*
+configs/        # Environment defaults and experiment settings
+experiments/    # Training/evaluation runners, tables and plots
+data/           # Training, validation and test maps
+models/         # Place downloaded weights here
+results/        # Saved paper evaluations
+outputs/        # New evaluations, reports and plots (Git-ignored)
+morl_import/    # Required MORL-Baselines modules and license
+```
+
+Hardware integration code is not included yet.
+
+Built on [MORL-Baselines](https://github.com/LucasAlegre/morl-baselines) and
+[Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3).

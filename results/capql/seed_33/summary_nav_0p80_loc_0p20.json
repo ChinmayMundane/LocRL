@@ -1,0 +1,362 @@
+{
+  "model_path": "/home/chinmay/LocalizationRL/model_logs/capql_recovery40_150k_seed_33/final_model.tar",
+  "policy_label": null,
+  "test_split": "final_test",
+  "preference": {
+    "navigation": 0.800000011920929,
+    "localization": 0.20000000298023224
+  },
+  "dataset_generation_seed": 24092027,
+  "evaluation_seed": 17027,
+  "total_runtime_seconds": 22.155483415990602,
+  "overall": {
+    "num_maps": 200,
+    "successes": 196,
+    "success_rate": 0.98,
+    "success_rate_wilson_95": [
+      0.9497121344948062,
+      0.9921956998236058
+    ],
+    "mean_steps_all": 62.435,
+    "mean_steps_success": 59.62755102040816,
+    "mean_path_length_success": 52.82373433994478,
+    "mean_path_efficiency_success": 0.8403788616764567,
+    "mean_final_distance": 1.8545668782342222,
+    "mean_final_covariance_trace": 2.187825414510211,
+    "mean_trajectory_covariance_trace": 0.7551894985512919,
+    "mean_max_covariance_trace": 2.2631829954804066,
+    "mean_covariance_auc": 53.33728374173114,
+    "mean_position_rmse": 0.6946383160667605,
+    "mean_final_position_error": 1.2180202876405766,
+    "mean_max_position_error": 1.3477046029580533,
+    "estimated_goal_false_positive_rate": 0.0,
+    "mean_collision_steps": 4.95,
+    "mean_max_collision_streak": 3.6,
+    "collision_trap_rate": 0.045,
+    "mean_landmark_visit_fraction": 0.24416666666666664,
+    "mean_navigation_return_raw": -24.4347452482261,
+    "mean_localization_return_raw": -87.681108356443,
+    "mean_scalarized_return": -0.37084017411315456,
+    "mean_episode_runtime_seconds": 0.10741905981558375
+  },
+  "by_difficulty": {
+    "easy": {
+      "num_maps": 67,
+      "successes": 66,
+      "success_rate": 0.9850746268656716,
+      "success_rate_wilson_95": [
+        0.9201794802686531,
+        0.997360496242323
+      ],
+      "mean_steps_all": 53.1044776119403,
+      "mean_steps_success": 50.878787878787875,
+      "mean_path_length_success": 47.51390334916705,
+      "mean_path_efficiency_success": 0.9104484912162718,
+      "mean_final_distance": 1.8327978248381265,
+      "mean_final_covariance_trace": 1.4276238725377073,
+      "mean_trajectory_covariance_trace": 0.5077562772604184,
+      "mean_max_covariance_trace": 1.484276747656192,
+      "mean_covariance_auc": 28.13196254473192,
+      "mean_position_rmse": 0.5830079283604598,
+      "mean_final_position_error": 1.015373613931547,
+      "mean_max_position_error": 1.1243672997552125,
+      "estimated_goal_false_positive_rate": 0.0,
+      "mean_collision_steps": 2.626865671641791,
+      "mean_max_collision_streak": 2.5671641791044775,
+      "collision_trap_rate": 0.014925373134328358,
+      "mean_landmark_visit_fraction": 0.3407960199004975,
+      "mean_navigation_return_raw": 40.504946648240534,
+      "mean_localization_return_raw": -22.617716078952288,
+      "mean_scalarized_return": 0.278804142105975,
+      "mean_episode_runtime_seconds": 0.09295726938906418
+    },
+    "medium": {
+      "num_maps": 67,
+      "successes": 65,
+      "success_rate": 0.9701492537313433,
+      "success_rate_wilson_95": [
+        0.8975324995811698,
+        0.991775477652546
+      ],
+      "mean_steps_all": 62.83582089552239,
+      "mean_steps_success": 58.61538461538461,
+      "mean_path_length_success": 53.15327515703384,
+      "mean_path_efficiency_success": 0.8283769634069854,
+      "mean_final_distance": 1.8074523359224257,
+      "mean_final_covariance_trace": 2.0957359995817773,
+      "mean_trajectory_covariance_trace": 0.7661397197179147,
+      "mean_max_covariance_trace": 2.2158879965642115,
+      "mean_covariance_auc": 53.77263683990581,
+      "mean_position_rmse": 0.701755384591916,
+      "mean_final_position_error": 1.163521536127582,
+      "mean_max_position_error": 1.3059333212323898,
+      "estimated_goal_false_positive_rate": 0.0,
+      "mean_collision_steps": 5.582089552238806,
+      "mean_max_collision_streak": 3.791044776119403,
+      "collision_trap_rate": 0.029850746268656716,
+      "mean_landmark_visit_fraction": 0.23880597014925373,
+      "mean_navigation_return_raw": -69.55855155472275,
+      "mean_localization_return_raw": -132.7162105469624,
+      "mean_scalarized_return": -0.8219008179780132,
+      "mean_episode_runtime_seconds": 0.10692057868643011
+    },
+    "hard": {
+      "num_maps": 66,
+      "successes": 65,
+      "success_rate": 0.9848484848484849,
+      "success_rate_wilson_95": [
+        0.9190388760177447,
+        0.9973204284655434
+      ],
+      "mean_steps_all": 71.5,
+      "mean_steps_success": 69.52307692307693,
+      "mean_path_length_success": 57.88571422118387,
+      "mean_path_efficiency_success": 0.7812331361055,
+      "mean_final_distance": 1.9244941647861733,
+      "mean_final_covariance_trace": 3.053029870758133,
+      "mean_trajectory_covariance_trace": 0.9952555744350011,
+      "mean_max_covariance_trace": 3.101902442929005,
+      "mean_covariance_auc": 78.48255438750762,
+      "mean_position_rmse": 0.8007351703870145,
+      "mean_final_position_error": 1.4790618556689963,
+      "mean_max_position_error": 1.6168299846278984,
+      "estimated_goal_false_positive_rate": 0.0,
+      "mean_collision_steps": 6.666666666666667,
+      "mean_max_collision_streak": 4.454545454545454,
+      "collision_trap_rate": 0.09090909090909091,
+      "mean_landmark_visit_fraction": 0.15151515151515152,
+      "mean_navigation_return_raw": -44.5508715289532,
+      "mean_localization_return_raw": -108.01285738412601,
+      "mean_scalarized_return": -0.5724326899879438,
+      "mean_episode_runtime_seconds": 0.12260600215240354
+    }
+  },
+  "config": {
+    "total_timesteps": 1000000,
+    "reset_timesteps": 500000,
+    "log_dir": "landmark_obstacle",
+    "save_dir": "",
+    "model_file": "capql_recovery40_150k_seed_33",
+    "model_checkpoint": "final_model",
+    "seed": 33,
+    "deterministic_torch": false,
+    "eval_freq": 10000,
+    "eval_episodes": 10,
+    "checkpoint_freq": 50000,
+    "eval_num_scenes": 10,
+    "eval_seed": 17027,
+    "eval_output_dir": "eval_scenes",
+    "full_eval_num_maps": 0,
+    "full_eval_output_dir": "/home/chinmay/LocalizationRL/results/capql_recovery40_150k/official_final_test_v2/seed_33",
+    "robustness_output_dir": "eval_robustness",
+    "robustness_map_split": "validation",
+    "robustness_num_maps": 0,
+    "robustness_motion_multipliers": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "robustness_measurement_variances": [
+      0.04,
+      0.25,
+      0.75
+    ],
+    "robustness_preferences": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "inspection_map_split": "validation",
+    "inspection_map_id": "validation_0068",
+    "inspection_output_dir": "eval_inspection/validation_0068",
+    "inspection_replay_prior_maps": true,
+    "use_map_splits": true,
+    "map_dataset_dir": "Data/map_splits",
+    "train_map_split": "train",
+    "validation_map_split": "validation",
+    "test_map_split": "final_test",
+    "train_map_count": 1000,
+    "validation_map_count": 150,
+    "test_map_count": 200,
+    "map_generation_seed": 24092027,
+    "morl_test_weights": [
+      0.8,
+      0.2
+    ],
+    "morl_eval_weights": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.9,
+        0.1
+      ],
+      [
+        0.8,
+        0.2
+      ],
+      [
+        0.7,
+        0.3
+      ],
+      [
+        0.6,
+        0.4
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.4,
+        0.6
+      ],
+      [
+        0.3,
+        0.7
+      ],
+      [
+        0.2,
+        0.8
+      ],
+      [
+        0.1,
+        0.9
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "morl_objective_scales": [
+      100.0,
+      100.0
+    ],
+    "morl_reference_point": [
+      -5.0,
+      -5.0
+    ],
+    "morl_gamma": 0.99,
+    "morl_learning_rate": 0.0003,
+    "morl_endpoint_sampling_probability": 0.3,
+    "morl_dirichlet_alpha": 0.5,
+    "morl_net_arch": [
+      256,
+      256
+    ],
+    "morl_batch_size": 128,
+    "morl_buffer_size": 100000,
+    "morl_learning_starts": 5000,
+    "capql_tau": 0.005,
+    "capql_alpha": 0.2,
+    "capql_num_q_nets": 2,
+    "capql_gradient_updates": 1,
+    "capql_stochastic_training_actions": true,
+    "capql_terminal_on_truncation": true,
+    "scalar_reward_scale": 1.0,
+    "scalar_entropy_coefficient": 0.2,
+    "map_size": 50,
+    "goal_threshold": 2,
+    "max_turn": 50,
+    "min_distance": 3,
+    "max_steps": 200,
+    "continuous_min_speed": 0.25,
+    "continuous_max_speed": 1.0,
+    "continuous_max_steering": 0.7853981633974483,
+    "continuous_wheelbase": 2.0,
+    "continuous_dt": 1.0,
+    "velocity": 2,
+    "velocity_dot": 0,
+    "del_t": 0.1,
+    "dist_dot": 0.0,
+    "yaw_dot": 0.0,
+    "delta_angle_dot": 0.0,
+    "view_size": 15,
+    "k_land_nearest": 1,
+    "k_obs_nearest": 1,
+    "landmark_size": 9,
+    "obstacle_size": 7,
+    "num_landmark": 1,
+    "num_obstacle": 1,
+    "lambda_max_allowed": 10.0,
+    "navigation_objective_weight": 1.0,
+    "localization_objective_weight": 1.0,
+    "shared_progress_reward_scale": 0.5,
+    "shared_step_penalty": 0.05,
+    "progress_reward_scale": 2.0,
+    "step_penalty": 0.25,
+    "turn_penalty": 0.02,
+    "collision_penalty": 10.0,
+    "collision_penalty_growth": 0.5,
+    "collision_penalty_max_multiplier": 5.0,
+    "collision_abort_steps": 12,
+    "collision_abort_penalty": 50.0,
+    "obstacle_clearance_margin": 1.5,
+    "obstacle_clearance_penalty": 1.0,
+    "revisit_penalty": 0.5,
+    "uncertainty_penalty": 0.5,
+    "information_gain_reward_scale": 15.0,
+    "information_budget_per_landmark": 3.5,
+    "landmark_progress_reward_scale": 2.0,
+    "terminal_uncertainty_penalty": 10.0,
+    "covariance_normalizer": 2000.0,
+    "goal_reward": 100.0,
+    "timeout_penalty": 25.0,
+    "hitting_obstacle_penalty": -2000,
+    "hitting_landmark_reward": 1000,
+    "goal_reaching_reward": 2000,
+    "motion_noise_std": [
+      0.05,
+      0.05,
+      0.0075
+    ],
+    "x_cov": [
+      [
+        0.1,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "process_cov": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.1
+      ]
+    ],
+    "noise_cov": [
+      [
+        0.25,
+        0.0
+      ],
+      [
+        0.0,
+        0.25
+      ]
+    ],
+    "use_wandb": false,
+    "wandb_username": "chinmay17",
+    "wandb_project": "LocalizationRL",
+    "wandb_name": "run",
+    "use_tensorboard": true
+  }
+}

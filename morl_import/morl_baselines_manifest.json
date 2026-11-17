@@ -1,0 +1,50 @@
+{
+  "upstream": "https://github.com/LucasAlegre/morl-baselines",
+  "revision": "a8acdbba3e8a4738cd4f3e3cfe57d151e8583892",
+  "files": [
+    {
+      "path": "morl_baselines/__init__.py",
+      "sha256": "84b9441180e33096ed55ee9b853fa61b2c0455935fd4bfea3b28b39137337ed2"
+    },
+    {
+      "path": "morl_baselines/common/__init__.py",
+      "sha256": "b1b34779374396f5a7144af97925b6a238a9e9827a99cc636d9368ef97506aa9"
+    },
+    {
+      "path": "morl_baselines/common/evaluation.py",
+      "sha256": "1d7206898e72592b20e31f7efbd4d82adae6fb20e11633c8d148d85c6189e532"
+    },
+    {
+      "path": "morl_baselines/common/morl_algorithm.py",
+      "sha256": "8f98b21c43a32c3aad3e27a4854aa0299f591a2872b1baa4c5e108a57eb4fa73"
+    },
+    {
+      "path": "morl_baselines/common/networks.py",
+      "sha256": "2dc4a258e6492d8535103ff40e2298b0d8d7c3ac3b395eef11bb3ceddc72f3fc"
+    },
+    {
+      "path": "morl_baselines/common/pareto.py",
+      "sha256": "df058b57c1634ef80b9f0a408f744446bd8b9cb5593f5ff119e3533ef25d48a3"
+    },
+    {
+      "path": "morl_baselines/common/performance_indicators.py",
+      "sha256": "0effffc2b0b974ca54ba737752a0f42416b2579a6fcd4e9c2416c45bfc2c3c96"
+    },
+    {
+      "path": "morl_baselines/common/weights.py",
+      "sha256": "c6c7dc1e1de62afe76dacdfcbb9dfe983f4009d59bd3b6501eae41efdb698591"
+    },
+    {
+      "path": "morl_baselines/multi_policy/__init__.py",
+      "sha256": "2dfce9d06328557dfb14446c260f4c0ddcf7a6639841e0cd9ff785e08423811f"
+    },
+    {
+      "path": "morl_baselines/multi_policy/capql/__init__.py",
+      "sha256": "598c333c76c20a7d5876b7079629973c8451da68ac799880861efc119a8e773a"
+    },
+    {
+      "path": "morl_baselines/multi_policy/capql/capql.py",
+      "sha256": "ea5d2a55acd2549a39b10f0df32a11eaab8495abd904f735ff4af78ee9a3ce0b"
+    }
+  ]
+}

@@ -1,18 +1,22 @@
-# Python
 __pycache__/
 *.py[cod]
 .venv/
-venv/
-.pytest_cache/
-
-# Local configuration and credentials
 .env
+.pytest_cache/
+.hydra/
+wandb/
+logs/
+*.log
+# Keep the folder; download weights separately.
+/models/*
+!/models/.gitkeep
+# Bundled results are tracked; generated reports and new runs are not.
+/outputs/
+
+# Local machine files
 .env.*
-!.env.example
 .aws/
 .agents/
 .codex/
-
-# Operating system files
 .DS_Store
 Thumbs.db

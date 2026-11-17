@@ -1,0 +1,162 @@
+defaults:
+- override hydra/job_logging: disabled
+- _self_
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: .
+  output_subdir: null
+total_timesteps: 150000
+model_file: capql_seed_11
+model_checkpoint: final_model
+seed: 11
+deterministic_torch: false
+eval_freq: 10000
+eval_episodes: 10
+checkpoint_freq: 50000
+eval_seed: 46000
+full_eval_num_maps: 0
+full_eval_output_dir: outputs/evaluation
+use_map_splits: true
+map_dataset_dir: data/map_splits
+train_map_split: train
+validation_map_split: validation
+test_map_split: validation
+train_map_count: 1000
+validation_map_count: 150
+test_map_count: 200
+map_generation_seed: 2027
+morl_test_weights:
+- 0.5
+- 0.5
+morl_eval_weights:
+- - 1.0
+  - 0.0
+- - 0.9
+  - 0.1
+- - 0.8
+  - 0.2
+- - 0.7
+  - 0.3
+- - 0.6
+  - 0.4
+- - 0.5
+  - 0.5
+- - 0.4
+  - 0.6
+- - 0.3
+  - 0.7
+- - 0.2
+  - 0.8
+- - 0.1
+  - 0.9
+- - 0.0
+  - 1.0
+morl_objective_scales:
+- 100.0
+- 100.0
+morl_reference_point:
+- -5.0
+- -5.0
+morl_gamma: 0.99
+morl_learning_rate: 0.0003
+morl_endpoint_sampling_probability: 0.3
+morl_dirichlet_alpha: 0.5
+morl_net_arch:
+- 256
+- 256
+morl_batch_size: 128
+morl_buffer_size: 100000
+morl_learning_starts: 5000
+capql_tau: 0.005
+capql_alpha: 0.002
+capql_num_q_nets: 2
+capql_gradient_updates: 1
+capql_stochastic_training_actions: true
+capql_terminal_on_truncation: true
+scalar_reward_scale: 1.0
+scalar_entropy_coefficient: 0.2
+map_size: 50
+goal_threshold: 2
+max_turn: 50
+min_distance: 3
+max_steps: 200
+continuous_min_speed: 0.25
+continuous_max_speed: 1.0
+continuous_max_steering: 0.7853981633974483
+continuous_wheelbase: 2.0
+continuous_dt: 1.0
+velocity: 2
+velocity_dot: 0
+del_t: 0.1
+dist_dot: 0.0
+yaw_dot: 0.0
+delta_angle_dot: 0.0
+view_size: 15
+k_land_nearest: 1
+k_obs_nearest: 1
+landmark_size: 9
+obstacle_size: 7
+num_landmark: 1
+num_obstacle: 1
+lambda_max_allowed: 10.0
+navigation_objective_weight: 1.0
+localization_objective_weight: 1.0
+shared_progress_reward_scale: 0.5
+shared_step_penalty: 0.05
+progress_reward_scale: 2.0
+step_penalty: 0.25
+turn_penalty: 0.02
+collision_penalty: 10.0
+collision_penalty_growth: 0.5
+collision_penalty_max_multiplier: 5.0
+collision_abort_steps: 12
+collision_abort_penalty: 50.0
+terminate_on_collision: false
+obstacle_clearance_margin: 1.5
+obstacle_clearance_penalty: 1.0
+revisit_penalty: 0.5
+uncertainty_penalty: 0.5
+information_gain_reward_scale: 15.0
+information_budget_per_landmark: 3.5
+landmark_progress_reward_scale: 2.0
+terminal_uncertainty_penalty: 10.0
+covariance_normalizer: 2000.0
+goal_reward: 100.0
+timeout_penalty: 25.0
+hitting_obstacle_penalty: -2000
+hitting_landmark_reward: 1000
+goal_reaching_reward: 2000
+motion_noise_std:
+- 0.05
+- 0.05
+- 0.0075
+x_cov:
+- - 0.1
+  - 0.0
+  - 0.0
+- - 0.0
+  - 0.1
+  - 0.0
+- - 0.0
+  - 0.0
+  - 0.0
+process_cov:
+- - 0.0
+  - 0.0
+- - 0.0
+  - 0.1
+noise_cov:
+- - 0.25
+  - 0.0
+- - 0.0
+  - 0.25
+use_wandb: false
+wandb_username: chinmay17
+wandb_project: LocalizationRL
+wandb_name: run
+use_tensorboard: true
+
+# Runtime placement; the pretrained demo can be evaluated without CUDA.
+device: auto

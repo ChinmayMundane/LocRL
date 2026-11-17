@@ -1,0 +1,54 @@
+# Frozen five-seed protocol promoted after the seed-11 validation pilot.
+# The original seed-11 protocol is archived with the pilot results.
+protocol_version: 2
+method: preference_conditioned_capql
+entrypoint_dir: capql
+experiment_name: capql_recovery40_150k
+model_prefix: capql_recovery40_150k_seed
+output_root: outputs/capql
+seeds: [11, 22, 33, 44, 55]
+total_timesteps: 150000
+checkpoint_freq: 50000
+eval_freq: 10000
+eval_episodes: 10
+validation_eval_seed: 46000
+use_wandb: false
+deterministic_torch: false
+seed_model_overrides: {}
+seed_checkpoint_overrides: {}
+stochastic_training_actions: true
+terminal_on_truncation: true
+entropy_coefficient: 0.002
+training_collision_abort_steps: 40
+objective_scales: [100.0, 100.0]
+reference_point: [-5.0, -5.0]
+endpoint_sampling_probability: 0.3
+dirichlet_alpha: 0.5
+uncertainty_penalty: 0.5
+information_gain_reward_scale: 15.0
+landmark_progress_reward_scale: 2.0
+terminal_uncertainty_penalty: 10.0
+shared_progress_reward_scale: 0.5
+shared_step_penalty: 0.05
+preferences:
+  - [1.0, 0.0]
+  - [0.8, 0.2]
+  - [0.6, 0.4]
+  - [0.5, 0.5]
+  - [0.4, 0.6]
+  - [0.2, 0.8]
+  - [0.0, 1.0]
+online_eval_preferences:
+  - [1.0, 0.0]
+  - [0.9, 0.1]
+  - [0.8, 0.2]
+  - [0.7, 0.3]
+  - [0.6, 0.4]
+  - [0.5, 0.5]
+  - [0.4, 0.6]
+  - [0.3, 0.7]
+  - [0.2, 0.8]
+  - [0.1, 0.9]
+  - [0.0, 1.0]
+development_split: validation
+locked_test_config: configs/experiments/final_test.yaml

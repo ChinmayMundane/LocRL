@@ -1,0 +1,11 @@
+protocol_version: 2
+dataset_dir: data/map_splits
+split: final_test
+count: 200
+map_size: 50
+generation_seed: 24092027
+evaluation_seed: 17027
+result_label: official_final_test_v2
+# Filled after deterministic generation. The runner refuses final evaluation
+# if the manifest no longer matches this checksum.
+sha256: 29954100c27cf7e2b77a4c5d398f658ac7f9520c7d0c516e65a78cb5c6e64f7c

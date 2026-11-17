@@ -1,0 +1,284 @@
+[
+  {
+    "method": "Fixed SAC",
+    "mean_ms": 0.6396466479011256,
+    "sd_ms": 0.03869565610229918,
+    "episodes": 1000,
+    "p99_ms": 1.3434570660000005,
+    "p99_sd_ms": 0.09673461343552665,
+    "source": "new CPU timing evaluation",
+    "per_seed": [
+      {
+        "seed": 11,
+        "mean_ms": 0.5964119402973578,
+        "p95_ms": 0.976393,
+        "p99_ms": 1.3246670000000003,
+        "max_ms": 2.870405,
+        "steps": 12981
+      },
+      {
+        "seed": 22,
+        "mean_ms": 0.6564497989157632,
+        "p95_ms": 1.03812445,
+        "p99_ms": 1.3754145200000008,
+        "max_ms": 2.42536,
+        "steps": 11990
+      },
+      {
+        "seed": 33,
+        "mean_ms": 0.6326255848884149,
+        "p95_ms": 0.9530089999999999,
+        "p99_ms": 1.2082603199999995,
+        "max_ms": 3.065085,
+        "steps": 13129
+      },
+      {
+        "seed": 44,
+        "mean_ms": 0.6965537688822874,
+        "p95_ms": 1.1142702,
+        "p99_ms": 1.4763475200000022,
+        "max_ms": 2.763235,
+        "steps": 13465
+      },
+      {
+        "seed": 55,
+        "mean_ms": 0.6161921465218048,
+        "p95_ms": 0.9749348499999998,
+        "p99_ms": 1.3325959699999996,
+        "max_ms": 2.727876,
+        "steps": 13254
+      }
+    ]
+  },
+  {
+    "method": "CAPQL",
+    "mean_ms": 0.4503739649351511,
+    "sd_ms": 0.10418139104943144,
+    "episodes": 1000,
+    "p99_ms": 0.9903873839999997,
+    "p99_sd_ms": 0.27939773088050335,
+    "source": "new CPU timing evaluation",
+    "per_seed": [
+      {
+        "seed": 11,
+        "mean_ms": 0.34389195783322807,
+        "p95_ms": 0.5073564999999998,
+        "p99_ms": 0.7029762999999999,
+        "max_ms": 1.51881,
+        "steps": 12664
+      },
+      {
+        "seed": 22,
+        "mean_ms": 0.41806769870494614,
+        "p95_ms": 0.6583169999999999,
+        "p99_ms": 0.8845349299999999,
+        "max_ms": 156.367658,
+        "steps": 12818
+      },
+      {
+        "seed": 33,
+        "mean_ms": 0.4083902785016287,
+        "p95_ms": 0.6648069999999996,
+        "p99_ms": 0.8942394999999999,
+        "max_ms": 1.524407,
+        "steps": 12894
+      },
+      {
+        "seed": 44,
+        "mean_ms": 0.4603514389106968,
+        "p95_ms": 0.7824366499999998,
+        "p99_ms": 1.0236264199999994,
+        "max_ms": 2.555,
+        "steps": 12228
+      },
+      {
+        "seed": 55,
+        "mean_ms": 0.621168450725256,
+        "p95_ms": 1.0795589999999997,
+        "p99_ms": 1.4465597699999997,
+        "max_ms": 4.265757,
+        "steps": 14064
+      }
+    ]
+  },
+  {
+    "method": "PC-SAC",
+    "mean_ms": 0.45324095258471075,
+    "sd_ms": 0.04237297931166991,
+    "episodes": 1000,
+    "p99_ms": 1.1170275579999998,
+    "p99_sd_ms": 0.14606558676294734,
+    "source": "new CPU timing evaluation",
+    "per_seed": [
+      {
+        "seed": 11,
+        "mean_ms": 0.4089062001746864,
+        "p95_ms": 0.7010813499999998,
+        "p99_ms": 0.9858643699999998,
+        "max_ms": 146.992511,
+        "steps": 12594
+      },
+      {
+        "seed": 22,
+        "mean_ms": 0.42538641331403765,
+        "p95_ms": 0.7320150999999996,
+        "p99_ms": 1.0280246099999995,
+        "max_ms": 1.988093,
+        "steps": 13820
+      },
+      {
+        "seed": 33,
+        "mean_ms": 0.5189554971236817,
+        "p95_ms": 0.9812770000000001,
+        "p99_ms": 1.35793685,
+        "max_ms": 3.162258,
+        "steps": 12516
+      },
+      {
+        "seed": 44,
+        "mean_ms": 0.4493695521927116,
+        "p95_ms": 0.8052545,
+        "p99_ms": 1.137984,
+        "max_ms": 2.523692,
+        "steps": 14571
+      },
+      {
+        "seed": 55,
+        "mean_ms": 0.4635871001184366,
+        "p95_ms": 0.7991989999999994,
+        "p99_ms": 1.0753279600000003,
+        "max_ms": 2.373587,
+        "steps": 12665
+      }
+    ]
+  },
+  {
+    "method": "Dubins RRT*",
+    "mean_ms": 34.21089726682435,
+    "sd_ms": 1.3774323960567771,
+    "episodes": 1000,
+    "p99_ms": null,
+    "p99_sd_ms": null,
+    "source": "archived planner navigation evaluation",
+    "files": [
+      "results/planner_local_official_final_test_v2/dubins_rrt_star/seed_11/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/dubins_rrt_star/seed_22/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/dubins_rrt_star/seed_33/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/dubins_rrt_star/seed_44/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/dubins_rrt_star/seed_55/test_maps_nav_0p50_loc_0p50.csv"
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "mean_ms": 36.195077763432685,
+        "steps": 16886
+      },
+      {
+        "seed": 22,
+        "mean_ms": 33.472149086635575,
+        "steps": 16044
+      },
+      {
+        "seed": 33,
+        "mean_ms": 33.77231218106806,
+        "steps": 15712
+      },
+      {
+        "seed": 44,
+        "mean_ms": 32.6697784370984,
+        "steps": 16656
+      },
+      {
+        "seed": 55,
+        "mean_ms": 34.945168865886984,
+        "steps": 16242
+      }
+    ]
+  },
+  {
+    "method": "Landmark RRT*",
+    "mean_ms": 27.237476938753083,
+    "sd_ms": 0.3023740329476658,
+    "episodes": 1000,
+    "p99_ms": null,
+    "p99_sd_ms": null,
+    "source": "archived planner navigation evaluation",
+    "files": [
+      "results/planner_local_official_final_test_v2/landmark_rrt_star/seed_11/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/landmark_rrt_star/seed_22/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/landmark_rrt_star/seed_33/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/landmark_rrt_star/seed_44/test_maps_nav_0p50_loc_0p50.csv",
+      "results/planner_local_official_final_test_v2/landmark_rrt_star/seed_55/test_maps_nav_0p50_loc_0p50.csv"
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "mean_ms": 27.01966462496571,
+        "steps": 15325
+      },
+      {
+        "seed": 22,
+        "mean_ms": 27.455942833343176,
+        "steps": 15131
+      },
+      {
+        "seed": 33,
+        "mean_ms": 26.815085113588562,
+        "steps": 15608
+      },
+      {
+        "seed": 44,
+        "mean_ms": 27.488372581662084,
+        "steps": 14894
+      },
+      {
+        "seed": 55,
+        "mean_ms": 27.408319540205852,
+        "steps": 15533
+      }
+    ]
+  },
+  {
+    "method": "Belief RRT*",
+    "mean_ms": 154.00792819703733,
+    "sd_ms": 2.0386151439044244,
+    "episodes": 1000,
+    "p99_ms": null,
+    "p99_sd_ms": null,
+    "source": "archived planner navigation evaluation",
+    "files": [
+      "results/belief_rrt_star_official_final_test_v2/belief_dubins_rrt_star/seed_11/test_maps_nav_0p50_loc_0p50.csv",
+      "results/belief_rrt_star_official_final_test_v2/belief_dubins_rrt_star/seed_22/test_maps_nav_0p50_loc_0p50.csv",
+      "results/belief_rrt_star_official_final_test_v2/belief_dubins_rrt_star/seed_33/test_maps_nav_0p50_loc_0p50.csv",
+      "results/belief_rrt_star_official_final_test_v2/belief_dubins_rrt_star/seed_44/test_maps_nav_0p50_loc_0p50.csv",
+      "results/belief_rrt_star_official_final_test_v2/belief_dubins_rrt_star/seed_55/test_maps_nav_0p50_loc_0p50.csv"
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "mean_ms": 154.8601210594793,
+        "steps": 16448
+      },
+      {
+        "seed": 22,
+        "mean_ms": 153.04759447315865,
+        "steps": 15721
+      },
+      {
+        "seed": 33,
+        "mean_ms": 153.5309349448802,
+        "steps": 15640
+      },
+      {
+        "seed": 44,
+        "mean_ms": 151.60080825755475,
+        "steps": 16209
+      },
+      {
+        "seed": 55,
+        "mean_ms": 157.0001822501137,
+        "steps": 15991
+      }
+    ]
+  }
+]

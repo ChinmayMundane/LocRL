@@ -1,0 +1,48 @@
+{
+  "seed": 33,
+  "num_maps": 0,
+  "iterations": 600,
+  "replan_interval": 25,
+  "navigation_weight": 0.5,
+  "uncertainty_scale": 2.0,
+  "output_root": "results/belief_rrt_star_official_final_test_v2",
+  "split": "final_test",
+  "evaluation_seed": 17027,
+  "locked_test_config": "experiments/configs/locked_final_test.yaml",
+  "execute_final_test": true,
+  "method": "expected_belief_dubins_rrt_star",
+  "dataset_sha256": "29954100c27cf7e2b77a4c5d398f658ac7f9520c7d0c516e65a78cb5c6e64f7c",
+  "information_access": "known static global map; estimated pose and EKF covariance; identical egocentric obstacle channel for local execution",
+  "belief_model": "nominal mean with EKF covariance prediction and expected landmark updates",
+  "objective": "weighted Dubins length plus integrated log position-covariance trace",
+  "process_covariance": [
+    [
+      0.0025000000000000005,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0025000000000000005,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      5.625e-05
+    ]
+  ],
+  "measurement_covariance": [
+    [
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.25
+    ]
+  ],
+  "controller_version": "expected_belief_local_observation_v1",
+  "training": "none",
+  "locked_test_config_sha256": "3ae892af8ae650218de77023486e307c80876aef899f42b021254570746e4c6b"
+}

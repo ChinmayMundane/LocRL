@@ -1,0 +1,7692 @@
+{
+  "version": 1,
+  "split": "validation",
+  "map_size": 50,
+  "generation_seed": 1002027,
+  "difficulty_profiles": {
+    "easy": {
+      "obstacle_count": [
+        1,
+        2
+      ],
+      "obstacle_sizes": [
+        5,
+        7
+      ],
+      "landmark_count": [
+        3,
+        4
+      ],
+      "landmark_sizes": [
+        9,
+        11
+      ],
+      "corridor_offset": [
+        1.0,
+        5.0
+      ]
+    },
+    "medium": {
+      "obstacle_count": [
+        3,
+        5
+      ],
+      "obstacle_sizes": [
+        5,
+        7,
+        9
+      ],
+      "landmark_count": [
+        2,
+        3
+      ],
+      "landmark_sizes": [
+        7,
+        9
+      ],
+      "corridor_offset": [
+        4.0,
+        10.0
+      ]
+    },
+    "hard": {
+      "obstacle_count": [
+        5,
+        8
+      ],
+      "obstacle_sizes": [
+        5,
+        7
+      ],
+      "landmark_count": [
+        1,
+        2
+      ],
+      "landmark_sizes": [
+        5,
+        7
+      ],
+      "corridor_offset": [
+        7.0,
+        14.0
+      ]
+    }
+  },
+  "maps": [
+    {
+      "id": "validation_0000",
+      "difficulty": "easy",
+      "seed": 1002027,
+      "start": [
+        48,
+        7
+      ],
+      "goal": [
+        3,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 43,
+          "y": 18,
+          "size": 5
+        },
+        {
+          "x": 42,
+          "y": 42,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 10,
+          "size": 9
+        },
+        {
+          "x": 11,
+          "y": 16,
+          "size": 9
+        },
+        {
+          "x": 24,
+          "y": 26,
+          "size": 11
+        },
+        {
+          "x": 6,
+          "y": 28,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 49
+    },
+    {
+      "id": "validation_0001",
+      "difficulty": "medium",
+      "seed": 1009946,
+      "start": [
+        30,
+        48
+      ],
+      "goal": [
+        31,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 43,
+          "y": 7,
+          "size": 5
+        },
+        {
+          "x": 36,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 40,
+          "size": 5
+        },
+        {
+          "x": 25,
+          "y": 23,
+          "size": 7
+        },
+        {
+          "x": 45,
+          "y": 33,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 37,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 7,
+          "y": 43,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 46
+    },
+    {
+      "id": "validation_0002",
+      "difficulty": "hard",
+      "seed": 1017865,
+      "start": [
+        33,
+        48
+      ],
+      "goal": [
+        42,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 8,
+          "y": 8,
+          "size": 5
+        },
+        {
+          "x": 10,
+          "y": 15,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 20,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 15,
+          "size": 5
+        },
+        {
+          "x": 10,
+          "y": 39,
+          "size": 5
+        },
+        {
+          "x": 20,
+          "y": 17,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 31,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0003",
+      "difficulty": "easy",
+      "seed": 1025784,
+      "start": [
+        48,
+        21
+      ],
+      "goal": [
+        3,
+        16
+      ],
+      "obstacles": [
+        {
+          "x": 28,
+          "y": 28,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 14,
+          "y": 20,
+          "size": 9
+        },
+        {
+          "x": 30,
+          "y": 41,
+          "size": 11
+        },
+        {
+          "x": 9,
+          "y": 33,
+          "size": 11
+        },
+        {
+          "x": 24,
+          "y": 16,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 50
+    },
+    {
+      "id": "validation_0004",
+      "difficulty": "medium",
+      "seed": 1033703,
+      "start": [
+        48,
+        34
+      ],
+      "goal": [
+        3,
+        5
+      ],
+      "obstacles": [
+        {
+          "x": 8,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 30,
+          "size": 5
+        },
+        {
+          "x": 9,
+          "y": 45,
+          "size": 9
+        },
+        {
+          "x": 36,
+          "y": 16,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 22,
+          "y": 25,
+          "size": 9
+        },
+        {
+          "x": 26,
+          "y": 37,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 74
+    },
+    {
+      "id": "validation_0005",
+      "difficulty": "hard",
+      "seed": 1041622,
+      "start": [
+        48,
+        27
+      ],
+      "goal": [
+        3,
+        12
+      ],
+      "obstacles": [
+        {
+          "x": 26,
+          "y": 16,
+          "size": 5
+        },
+        {
+          "x": 43,
+          "y": 43,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 29,
+          "y": 7,
+          "size": 5
+        },
+        {
+          "x": 31,
+          "y": 25,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 17,
+          "size": 5
+        },
+        {
+          "x": 17,
+          "y": 46,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 10,
+          "y": 29,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0006",
+      "difficulty": "easy",
+      "seed": 1049541,
+      "start": [
+        3,
+        38
+      ],
+      "goal": [
+        48,
+        31
+      ],
+      "obstacles": [
+        {
+          "x": 32,
+          "y": 33,
+          "size": 7
+        },
+        {
+          "x": 19,
+          "y": 42,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 19,
+          "y": 31,
+          "size": 9
+        },
+        {
+          "x": 43,
+          "y": 7,
+          "size": 11
+        },
+        {
+          "x": 8,
+          "y": 27,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 52
+    },
+    {
+      "id": "validation_0007",
+      "difficulty": "medium",
+      "seed": 1057460,
+      "start": [
+        48,
+        18
+      ],
+      "goal": [
+        3,
+        38
+      ],
+      "obstacles": [
+        {
+          "x": 5,
+          "y": 45,
+          "size": 5
+        },
+        {
+          "x": 24,
+          "y": 8,
+          "size": 5
+        },
+        {
+          "x": 8,
+          "y": 12,
+          "size": 9
+        },
+        {
+          "x": 42,
+          "y": 45,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 38,
+          "size": 9
+        },
+        {
+          "x": 38,
+          "y": 35,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 65
+    },
+    {
+      "id": "validation_0008",
+      "difficulty": "hard",
+      "seed": 1065379,
+      "start": [
+        12,
+        3
+      ],
+      "goal": [
+        3,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 9,
+          "y": 28,
+          "size": 7
+        },
+        {
+          "x": 26,
+          "y": 35,
+          "size": 5
+        },
+        {
+          "x": 26,
+          "y": 8,
+          "size": 7
+        },
+        {
+          "x": 25,
+          "y": 43,
+          "size": 7
+        },
+        {
+          "x": 37,
+          "y": 33,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 17,
+          "y": 34,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0009",
+      "difficulty": "easy",
+      "seed": 1073298,
+      "start": [
+        48,
+        18
+      ],
+      "goal": [
+        3,
+        30
+      ],
+      "obstacles": [
+        {
+          "x": 38,
+          "y": 26,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 20,
+          "y": 29,
+          "size": 9
+        },
+        {
+          "x": 13,
+          "y": 40,
+          "size": 11
+        },
+        {
+          "x": 28,
+          "y": 44,
+          "size": 11
+        },
+        {
+          "x": 30,
+          "y": 30,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 57
+    },
+    {
+      "id": "validation_0010",
+      "difficulty": "medium",
+      "seed": 1081217,
+      "start": [
+        15,
+        3
+      ],
+      "goal": [
+        47,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 18,
+          "y": 10,
+          "size": 9
+        },
+        {
+          "x": 24,
+          "y": 31,
+          "size": 5
+        },
+        {
+          "x": 28,
+          "y": 41,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 12,
+          "size": 9
+        },
+        {
+          "x": 44,
+          "y": 34,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 77
+    },
+    {
+      "id": "validation_0011",
+      "difficulty": "hard",
+      "seed": 1089136,
+      "start": [
+        48,
+        43
+      ],
+      "goal": [
+        3,
+        9
+      ],
+      "obstacles": [
+        {
+          "x": 41,
+          "y": 30,
+          "size": 5
+        },
+        {
+          "x": 30,
+          "y": 22,
+          "size": 7
+        },
+        {
+          "x": 33,
+          "y": 32,
+          "size": 7
+        },
+        {
+          "x": 23,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 24,
+          "y": 11,
+          "size": 5
+        },
+        {
+          "x": 10,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 41,
+          "y": 7,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 42,
+          "y": 22,
+          "size": 7
+        },
+        {
+          "x": 15,
+          "y": 30,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 79
+    },
+    {
+      "id": "validation_0012",
+      "difficulty": "easy",
+      "seed": 1097055,
+      "start": [
+        48,
+        45
+      ],
+      "goal": [
+        3,
+        18
+      ],
+      "obstacles": [
+        {
+          "x": 12,
+          "y": 41,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 23,
+          "y": 28,
+          "size": 9
+        },
+        {
+          "x": 30,
+          "y": 9,
+          "size": 9
+        },
+        {
+          "x": 41,
+          "y": 18,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 72
+    },
+    {
+      "id": "validation_0013",
+      "difficulty": "medium",
+      "seed": 1104974,
+      "start": [
+        14,
+        48
+      ],
+      "goal": [
+        16,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 20,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 18,
+          "size": 9
+        },
+        {
+          "x": 30,
+          "y": 35,
+          "size": 7
+        },
+        {
+          "x": 6,
+          "y": 15,
+          "size": 7
+        },
+        {
+          "x": 12,
+          "y": 40,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 8,
+          "y": 27,
+          "size": 9
+        },
+        {
+          "x": 41,
+          "y": 33,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 49
+    },
+    {
+      "id": "validation_0014",
+      "difficulty": "hard",
+      "seed": 1112893,
+      "start": [
+        27,
+        48
+      ],
+      "goal": [
+        26,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 39,
+          "y": 5,
+          "size": 7
+        },
+        {
+          "x": 8,
+          "y": 42,
+          "size": 7
+        },
+        {
+          "x": 13,
+          "y": 5,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 26,
+          "size": 7
+        },
+        {
+          "x": 13,
+          "y": 26,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 34,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 15,
+          "y": 18,
+          "size": 5
+        },
+        {
+          "x": 5,
+          "y": 18,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 46
+    },
+    {
+      "id": "validation_0015",
+      "difficulty": "easy",
+      "seed": 1120812,
+      "start": [
+        48,
+        22
+      ],
+      "goal": [
+        3,
+        38
+      ],
+      "obstacles": [
+        {
+          "x": 15,
+          "y": 19,
+          "size": 7
+        },
+        {
+          "x": 6,
+          "y": 46,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 22,
+          "y": 34,
+          "size": 11
+        },
+        {
+          "x": 37,
+          "y": 34,
+          "size": 9
+        },
+        {
+          "x": 39,
+          "y": 24,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 61
+    },
+    {
+      "id": "validation_0016",
+      "difficulty": "medium",
+      "seed": 1128731,
+      "start": [
+        10,
+        48
+      ],
+      "goal": [
+        31,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 28,
+          "y": 47,
+          "size": 5
+        },
+        {
+          "x": 12,
+          "y": 14,
+          "size": 9
+        },
+        {
+          "x": 29,
+          "y": 38,
+          "size": 9
+        },
+        {
+          "x": 39,
+          "y": 28,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 30,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 34,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 66
+    },
+    {
+      "id": "validation_0017",
+      "difficulty": "hard",
+      "seed": 1136650,
+      "start": [
+        17,
+        48
+      ],
+      "goal": [
+        35,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 33,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 42,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 46,
+          "y": 33,
+          "size": 5
+        },
+        {
+          "x": 46,
+          "y": 25,
+          "size": 7
+        },
+        {
+          "x": 15,
+          "y": 25,
+          "size": 5
+        },
+        {
+          "x": 11,
+          "y": 35,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 45,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 22,
+          "y": 15,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0018",
+      "difficulty": "easy",
+      "seed": 1144569,
+      "start": [
+        3,
+        29
+      ],
+      "goal": [
+        48,
+        20
+      ],
+      "obstacles": [
+        {
+          "x": 20,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 45,
+          "y": 47,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 21,
+          "y": 23,
+          "size": 11
+        },
+        {
+          "x": 30,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 36,
+          "y": 23,
+          "size": 9
+        },
+        {
+          "x": 30,
+          "y": 7,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0019",
+      "difficulty": "medium",
+      "seed": 1152488,
+      "start": [
+        19,
+        3
+      ],
+      "goal": [
+        43,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 18,
+          "y": 40,
+          "size": 7
+        },
+        {
+          "x": 8,
+          "y": 23,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 11,
+          "size": 7
+        },
+        {
+          "x": 26,
+          "y": 42,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 23,
+          "y": 27,
+          "size": 7
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 69
+    },
+    {
+      "id": "validation_0020",
+      "difficulty": "hard",
+      "seed": 1160407,
+      "start": [
+        48,
+        23
+      ],
+      "goal": [
+        3,
+        26
+      ],
+      "obstacles": [
+        {
+          "x": 9,
+          "y": 40,
+          "size": 7
+        },
+        {
+          "x": 12,
+          "y": 21,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 8,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 46,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 37,
+          "y": 28,
+          "size": 5
+        },
+        {
+          "x": 24,
+          "y": 46,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 17,
+          "y": 36,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 8,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 48
+    },
+    {
+      "id": "validation_0021",
+      "difficulty": "easy",
+      "seed": 1168326,
+      "start": [
+        48,
+        32
+      ],
+      "goal": [
+        3,
+        4
+      ],
+      "obstacles": [
+        {
+          "x": 42,
+          "y": 18,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 28,
+          "y": 25,
+          "size": 11
+        },
+        {
+          "x": 9,
+          "y": 33,
+          "size": 11
+        },
+        {
+          "x": 22,
+          "y": 10,
+          "size": 11
+        },
+        {
+          "x": 35,
+          "y": 6,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 73
+    },
+    {
+      "id": "validation_0022",
+      "difficulty": "medium",
+      "seed": 1176245,
+      "start": [
+        3,
+        20
+      ],
+      "goal": [
+        48,
+        12
+      ],
+      "obstacles": [
+        {
+          "x": 21,
+          "y": 22,
+          "size": 9
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 14,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 35,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 10,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 16,
+          "y": 10,
+          "size": 9
+        },
+        {
+          "x": 31,
+          "y": 36,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 53
+    },
+    {
+      "id": "validation_0023",
+      "difficulty": "hard",
+      "seed": 1184164,
+      "start": [
+        48,
+        3
+      ],
+      "goal": [
+        3,
+        45
+      ],
+      "obstacles": [
+        {
+          "x": 45,
+          "y": 43,
+          "size": 5
+        },
+        {
+          "x": 39,
+          "y": 17,
+          "size": 7
+        },
+        {
+          "x": 6,
+          "y": 38,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 38,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 29,
+          "size": 5
+        },
+        {
+          "x": 21,
+          "y": 30,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 23,
+          "y": 8,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 87
+    },
+    {
+      "id": "validation_0024",
+      "difficulty": "easy",
+      "seed": 1192083,
+      "start": [
+        16,
+        3
+      ],
+      "goal": [
+        40,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 35,
+          "y": 34,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 29,
+          "size": 9
+        },
+        {
+          "x": 35,
+          "y": 7,
+          "size": 9
+        },
+        {
+          "x": 11,
+          "y": 43,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 69
+    },
+    {
+      "id": "validation_0025",
+      "difficulty": "medium",
+      "seed": 1200002,
+      "start": [
+        48,
+        31
+      ],
+      "goal": [
+        3,
+        46
+      ],
+      "obstacles": [
+        {
+          "x": 36,
+          "y": 37,
+          "size": 9
+        },
+        {
+          "x": 31,
+          "y": 25,
+          "size": 7
+        },
+        {
+          "x": 17,
+          "y": 28,
+          "size": 5
+        },
+        {
+          "x": 5,
+          "y": 19,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 14,
+          "y": 38,
+          "size": 9
+        },
+        {
+          "x": 44,
+          "y": 22,
+          "size": 7
+        },
+        {
+          "x": 26,
+          "y": 15,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0026",
+      "difficulty": "hard",
+      "seed": 1207921,
+      "start": [
+        48,
+        19
+      ],
+      "goal": [
+        3,
+        32
+      ],
+      "obstacles": [
+        {
+          "x": 41,
+          "y": 11,
+          "size": 5
+        },
+        {
+          "x": 37,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 25,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 19,
+          "y": 21,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 5,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 13,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 58
+    },
+    {
+      "id": "validation_0027",
+      "difficulty": "easy",
+      "seed": 1215840,
+      "start": [
+        3,
+        35
+      ],
+      "goal": [
+        48,
+        16
+      ],
+      "obstacles": [
+        {
+          "x": 8,
+          "y": 43,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 21,
+          "size": 9
+        },
+        {
+          "x": 27,
+          "y": 9,
+          "size": 9
+        },
+        {
+          "x": 35,
+          "y": 41,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 64
+    },
+    {
+      "id": "validation_0028",
+      "difficulty": "medium",
+      "seed": 1223759,
+      "start": [
+        37,
+        48
+      ],
+      "goal": [
+        46,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 17,
+          "y": 39,
+          "size": 5
+        },
+        {
+          "x": 45,
+          "y": 35,
+          "size": 9
+        },
+        {
+          "x": 44,
+          "y": 45,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 35,
+          "y": 24,
+          "size": 9
+        },
+        {
+          "x": 10,
+          "y": 18,
+          "size": 9
+        },
+        {
+          "x": 40,
+          "y": 15,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0029",
+      "difficulty": "hard",
+      "seed": 1231678,
+      "start": [
+        48,
+        12
+      ],
+      "goal": [
+        3,
+        44
+      ],
+      "obstacles": [
+        {
+          "x": 9,
+          "y": 27,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 21,
+          "size": 7
+        },
+        {
+          "x": 36,
+          "y": 18,
+          "size": 5
+        },
+        {
+          "x": 15,
+          "y": 46,
+          "size": 7
+        },
+        {
+          "x": 34,
+          "y": 8,
+          "size": 5
+        },
+        {
+          "x": 19,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 17,
+          "y": 11,
+          "size": 7
+        },
+        {
+          "x": 8,
+          "y": 43,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 41,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 46,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 77
+    },
+    {
+      "id": "validation_0030",
+      "difficulty": "easy",
+      "seed": 1239597,
+      "start": [
+        3,
+        18
+      ],
+      "goal": [
+        48,
+        8
+      ],
+      "obstacles": [
+        {
+          "x": 23,
+          "y": 10,
+          "size": 7
+        },
+        {
+          "x": 10,
+          "y": 20,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 36,
+          "y": 8,
+          "size": 11
+        },
+        {
+          "x": 39,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 33,
+          "y": 23,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 55
+    },
+    {
+      "id": "validation_0031",
+      "difficulty": "medium",
+      "seed": 1247516,
+      "start": [
+        3,
+        13
+      ],
+      "goal": [
+        48,
+        28
+      ],
+      "obstacles": [
+        {
+          "x": 39,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 21,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 6,
+          "y": 41,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 29,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 28,
+          "y": 27,
+          "size": 7
+        },
+        {
+          "x": 38,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 16,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0032",
+      "difficulty": "hard",
+      "seed": 1255435,
+      "start": [
+        29,
+        48
+      ],
+      "goal": [
+        6,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 40,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 9,
+          "y": 10,
+          "size": 7
+        },
+        {
+          "x": 17,
+          "y": 38,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 32,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 40,
+          "size": 5
+        },
+        {
+          "x": 17,
+          "y": 25,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 11,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 27,
+          "y": 18,
+          "size": 5
+        },
+        {
+          "x": 5,
+          "y": 40,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 68
+    },
+    {
+      "id": "validation_0033",
+      "difficulty": "easy",
+      "seed": 1263354,
+      "start": [
+        48,
+        27
+      ],
+      "goal": [
+        3,
+        44
+      ],
+      "obstacles": [
+        {
+          "x": 42,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 17,
+          "y": 43,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 28,
+          "y": 30,
+          "size": 11
+        },
+        {
+          "x": 23,
+          "y": 10,
+          "size": 11
+        },
+        {
+          "x": 10,
+          "y": 24,
+          "size": 9
+        },
+        {
+          "x": 8,
+          "y": 11,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 62
+    },
+    {
+      "id": "validation_0034",
+      "difficulty": "medium",
+      "seed": 1271273,
+      "start": [
+        48,
+        39
+      ],
+      "goal": [
+        3,
+        25
+      ],
+      "obstacles": [
+        {
+          "x": 27,
+          "y": 26,
+          "size": 7
+        },
+        {
+          "x": 10,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 45,
+          "y": 16,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 37,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 34,
+          "y": 12,
+          "size": 9
+        },
+        {
+          "x": 17,
+          "y": 33,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 59
+    },
+    {
+      "id": "validation_0035",
+      "difficulty": "hard",
+      "seed": 1279192,
+      "start": [
+        3,
+        20
+      ],
+      "goal": [
+        48,
+        26
+      ],
+      "obstacles": [
+        {
+          "x": 42,
+          "y": 24,
+          "size": 5
+        },
+        {
+          "x": 43,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 28,
+          "y": 11,
+          "size": 5
+        },
+        {
+          "x": 30,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 31,
+          "y": 27,
+          "size": 7
+        },
+        {
+          "x": 15,
+          "y": 41,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 16,
+          "y": 32,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 6,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 51
+    },
+    {
+      "id": "validation_0036",
+      "difficulty": "easy",
+      "seed": 1287111,
+      "start": [
+        24,
+        3
+      ],
+      "goal": [
+        34,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 6,
+          "y": 17,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 31,
+          "y": 20,
+          "size": 9
+        },
+        {
+          "x": 25,
+          "y": 32,
+          "size": 11
+        },
+        {
+          "x": 44,
+          "y": 10,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 55
+    },
+    {
+      "id": "validation_0037",
+      "difficulty": "medium",
+      "seed": 1295030,
+      "start": [
+        3,
+        8
+      ],
+      "goal": [
+        48,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 21,
+          "y": 16,
+          "size": 9
+        },
+        {
+          "x": 36,
+          "y": 13,
+          "size": 5
+        },
+        {
+          "x": 29,
+          "y": 16,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 37,
+          "y": 28,
+          "size": 9
+        },
+        {
+          "x": 7,
+          "y": 40,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 85
+    },
+    {
+      "id": "validation_0038",
+      "difficulty": "hard",
+      "seed": 1302949,
+      "start": [
+        3,
+        36
+      ],
+      "goal": [
+        48,
+        25
+      ],
+      "obstacles": [
+        {
+          "x": 29,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 25,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 41,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 8,
+          "y": 25,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 37,
+          "y": 36,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 56
+    },
+    {
+      "id": "validation_0039",
+      "difficulty": "easy",
+      "seed": 1310868,
+      "start": [
+        48,
+        33
+      ],
+      "goal": [
+        3,
+        5
+      ],
+      "obstacles": [
+        {
+          "x": 13,
+          "y": 11,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 27,
+          "y": 15,
+          "size": 11
+        },
+        {
+          "x": 44,
+          "y": 41,
+          "size": 9
+        },
+        {
+          "x": 25,
+          "y": 32,
+          "size": 9
+        },
+        {
+          "x": 12,
+          "y": 44,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 73
+    },
+    {
+      "id": "validation_0040",
+      "difficulty": "medium",
+      "seed": 1318787,
+      "start": [
+        48,
+        43
+      ],
+      "goal": [
+        3,
+        20
+      ],
+      "obstacles": [
+        {
+          "x": 39,
+          "y": 9,
+          "size": 7
+        },
+        {
+          "x": 32,
+          "y": 26,
+          "size": 9
+        },
+        {
+          "x": 10,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "size": 5
+        },
+        {
+          "x": 44,
+          "y": 23,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 43,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 14,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 68
+    },
+    {
+      "id": "validation_0041",
+      "difficulty": "hard",
+      "seed": 1326706,
+      "start": [
+        28,
+        48
+      ],
+      "goal": [
+        22,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 31,
+          "y": 41,
+          "size": 7
+        },
+        {
+          "x": 40,
+          "y": 40,
+          "size": 7
+        },
+        {
+          "x": 11,
+          "y": 7,
+          "size": 5
+        },
+        {
+          "x": 13,
+          "y": 45,
+          "size": 5
+        },
+        {
+          "x": 21,
+          "y": 14,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 14,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 35,
+          "y": 29,
+          "size": 5
+        },
+        {
+          "x": 24,
+          "y": 22,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 51
+    },
+    {
+      "id": "validation_0042",
+      "difficulty": "easy",
+      "seed": 1334625,
+      "start": [
+        48,
+        36
+      ],
+      "goal": [
+        3,
+        27
+      ],
+      "obstacles": [
+        {
+          "x": 31,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 22,
+          "y": 44,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 21,
+          "y": 33,
+          "size": 9
+        },
+        {
+          "x": 10,
+          "y": 17,
+          "size": 11
+        },
+        {
+          "x": 42,
+          "y": 14,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0043",
+      "difficulty": "medium",
+      "seed": 1342544,
+      "start": [
+        37,
+        3
+      ],
+      "goal": [
+        25,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 43,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 42,
+          "size": 5
+        },
+        {
+          "x": 21,
+          "y": 31,
+          "size": 7
+        },
+        {
+          "x": 16,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 39,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 28,
+          "y": 19,
+          "size": 7
+        },
+        {
+          "x": 17,
+          "y": 6,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 57
+    },
+    {
+      "id": "validation_0044",
+      "difficulty": "hard",
+      "seed": 1350463,
+      "start": [
+        48,
+        10
+      ],
+      "goal": [
+        3,
+        43
+      ],
+      "obstacles": [
+        {
+          "x": 13,
+          "y": 41,
+          "size": 7
+        },
+        {
+          "x": 26,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 22,
+          "size": 7
+        },
+        {
+          "x": 43,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 10,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 14,
+          "y": 20,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 78
+    },
+    {
+      "id": "validation_0045",
+      "difficulty": "easy",
+      "seed": 1358382,
+      "start": [
+        7,
+        48
+      ],
+      "goal": [
+        41,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 19,
+          "y": 9,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 19,
+          "y": 29,
+          "size": 11
+        },
+        {
+          "x": 29,
+          "y": 12,
+          "size": 11
+        },
+        {
+          "x": 37,
+          "y": 38,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 79
+    },
+    {
+      "id": "validation_0046",
+      "difficulty": "medium",
+      "seed": 1366301,
+      "start": [
+        3,
+        6
+      ],
+      "goal": [
+        48,
+        35
+      ],
+      "obstacles": [
+        {
+          "x": 5,
+          "y": 21,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 7,
+          "size": 9
+        },
+        {
+          "x": 21,
+          "y": 33,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 19,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 13,
+          "y": 21,
+          "size": 9
+        },
+        {
+          "x": 42,
+          "y": 43,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 74
+    },
+    {
+      "id": "validation_0047",
+      "difficulty": "hard",
+      "seed": 1374220,
+      "start": [
+        5,
+        48
+      ],
+      "goal": [
+        23,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 22,
+          "y": 41,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 38,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 32,
+          "y": 38,
+          "size": 5
+        },
+        {
+          "x": 44,
+          "y": 45,
+          "size": 5
+        },
+        {
+          "x": 17,
+          "y": 8,
+          "size": 7
+        },
+        {
+          "x": 13,
+          "y": 30,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 30,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0048",
+      "difficulty": "easy",
+      "seed": 1382139,
+      "start": [
+        3,
+        24
+      ],
+      "goal": [
+        48,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 23,
+          "y": 22,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 19,
+          "y": 36,
+          "size": 11
+        },
+        {
+          "x": 43,
+          "y": 19,
+          "size": 9
+        },
+        {
+          "x": 41,
+          "y": 8,
+          "size": 11
+        },
+        {
+          "x": 14,
+          "y": 12,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 69
+    },
+    {
+      "id": "validation_0049",
+      "difficulty": "medium",
+      "seed": 1390058,
+      "start": [
+        48,
+        38
+      ],
+      "goal": [
+        3,
+        41
+      ],
+      "obstacles": [
+        {
+          "x": 22,
+          "y": 34,
+          "size": 9
+        },
+        {
+          "x": 4,
+          "y": 47,
+          "size": 5
+        },
+        {
+          "x": 12,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 37,
+          "y": 21,
+          "size": 5
+        },
+        {
+          "x": 15,
+          "y": 43,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 35,
+          "y": 32,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 11,
+          "y": 32,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 48
+    },
+    {
+      "id": "validation_0050",
+      "difficulty": "hard",
+      "seed": 1397977,
+      "start": [
+        43,
+        48
+      ],
+      "goal": [
+        31,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 36,
+          "y": 17,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 36,
+          "size": 7
+        },
+        {
+          "x": 8,
+          "y": 23,
+          "size": 7
+        },
+        {
+          "x": 37,
+          "y": 5,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 28,
+          "y": 14,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 35,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 57
+    },
+    {
+      "id": "validation_0051",
+      "difficulty": "easy",
+      "seed": 1405896,
+      "start": [
+        6,
+        3
+      ],
+      "goal": [
+        41,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 18,
+          "y": 23,
+          "size": 7
+        },
+        {
+          "x": 46,
+          "y": 30,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 27,
+          "y": 36,
+          "size": 9
+        },
+        {
+          "x": 11,
+          "y": 40,
+          "size": 11
+        },
+        {
+          "x": 43,
+          "y": 41,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 80
+    },
+    {
+      "id": "validation_0052",
+      "difficulty": "medium",
+      "seed": 1413815,
+      "start": [
+        48,
+        48
+      ],
+      "goal": [
+        39,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 17,
+          "y": 25,
+          "size": 9
+        },
+        {
+          "x": 20,
+          "y": 41,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 22,
+          "size": 5
+        },
+        {
+          "x": 11,
+          "y": 13,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 38,
+          "y": 25,
+          "size": 9
+        },
+        {
+          "x": 27,
+          "y": 25,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0053",
+      "difficulty": "hard",
+      "seed": 1421734,
+      "start": [
+        27,
+        3
+      ],
+      "goal": [
+        46,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 41,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 46,
+          "y": 14,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 20,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 24,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 13,
+          "y": 14,
+          "size": 5
+        },
+        {
+          "x": 32,
+          "y": 10,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 46,
+          "y": 28,
+          "size": 7
+        },
+        {
+          "x": 15,
+          "y": 43,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 64
+    },
+    {
+      "id": "validation_0054",
+      "difficulty": "easy",
+      "seed": 1429653,
+      "start": [
+        3,
+        29
+      ],
+      "goal": [
+        48,
+        47
+      ],
+      "obstacles": [
+        {
+          "x": 37,
+          "y": 15,
+          "size": 7
+        },
+        {
+          "x": 16,
+          "y": 11,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 35,
+          "size": 9
+        },
+        {
+          "x": 14,
+          "y": 22,
+          "size": 11
+        },
+        {
+          "x": 11,
+          "y": 36,
+          "size": 11
+        },
+        {
+          "x": 44,
+          "y": 29,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0055",
+      "difficulty": "medium",
+      "seed": 1437572,
+      "start": [
+        44,
+        3
+      ],
+      "goal": [
+        29,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 44,
+          "y": 44,
+          "size": 9
+        },
+        {
+          "x": 26,
+          "y": 35,
+          "size": 9
+        },
+        {
+          "x": 16,
+          "y": 46,
+          "size": 7
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 42,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 17,
+          "size": 7
+        },
+        {
+          "x": 37,
+          "y": 17,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0056",
+      "difficulty": "hard",
+      "seed": 1445491,
+      "start": [
+        33,
+        3
+      ],
+      "goal": [
+        22,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 36,
+          "y": 42,
+          "size": 7
+        },
+        {
+          "x": 40,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 32,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 28,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 19,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 18,
+          "y": 28,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 56
+    },
+    {
+      "id": "validation_0057",
+      "difficulty": "easy",
+      "seed": 1453410,
+      "start": [
+        33,
+        3
+      ],
+      "goal": [
+        27,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 6,
+          "y": 31,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 34,
+          "y": 24,
+          "size": 11
+        },
+        {
+          "x": 19,
+          "y": 35,
+          "size": 9
+        },
+        {
+          "x": 37,
+          "y": 38,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 51
+    },
+    {
+      "id": "validation_0058",
+      "difficulty": "medium",
+      "seed": 1461329,
+      "start": [
+        29,
+        3
+      ],
+      "goal": [
+        31,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 5,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 38,
+          "y": 42,
+          "size": 7
+        },
+        {
+          "x": 14,
+          "y": 11,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 23,
+          "y": 26,
+          "size": 9
+        },
+        {
+          "x": 33,
+          "y": 23,
+          "size": 7
+        },
+        {
+          "x": 11,
+          "y": 20,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 47
+    },
+    {
+      "id": "validation_0059",
+      "difficulty": "hard",
+      "seed": 1469248,
+      "start": [
+        28,
+        48
+      ],
+      "goal": [
+        43,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 27,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 47,
+          "y": 25,
+          "size": 5
+        },
+        {
+          "x": 21,
+          "y": 10,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 9,
+          "y": 13,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 12,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 21,
+          "size": 5
+        },
+        {
+          "x": 20,
+          "y": 28,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 43,
+          "y": 37,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0060",
+      "difficulty": "easy",
+      "seed": 1477167,
+      "start": [
+        3,
+        45
+      ],
+      "goal": [
+        48,
+        17
+      ],
+      "obstacles": [
+        {
+          "x": 18,
+          "y": 17,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 7,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 12,
+          "y": 34,
+          "size": 9
+        },
+        {
+          "x": 37,
+          "y": 24,
+          "size": 9
+        },
+        {
+          "x": 37,
+          "y": 40,
+          "size": 11
+        },
+        {
+          "x": 28,
+          "y": 8,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 73
+    },
+    {
+      "id": "validation_0061",
+      "difficulty": "medium",
+      "seed": 1485086,
+      "start": [
+        3,
+        47
+      ],
+      "goal": [
+        48,
+        35
+      ],
+      "obstacles": [
+        {
+          "x": 28,
+          "y": 23,
+          "size": 5
+        },
+        {
+          "x": 9,
+          "y": 37,
+          "size": 7
+        },
+        {
+          "x": 25,
+          "y": 14,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 28,
+          "y": 31,
+          "size": 9
+        },
+        {
+          "x": 12,
+          "y": 27,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 57
+    },
+    {
+      "id": "validation_0062",
+      "difficulty": "hard",
+      "seed": 1493005,
+      "start": [
+        48,
+        24
+      ],
+      "goal": [
+        3,
+        19
+      ],
+      "obstacles": [
+        {
+          "x": 28,
+          "y": 38,
+          "size": 5
+        },
+        {
+          "x": 45,
+          "y": 17,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 46,
+          "size": 5
+        },
+        {
+          "x": 37,
+          "y": 33,
+          "size": 5
+        },
+        {
+          "x": 31,
+          "y": 31,
+          "size": 5
+        },
+        {
+          "x": 4,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 40,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 20,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 22,
+          "y": 22,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 50
+    },
+    {
+      "id": "validation_0063",
+      "difficulty": "easy",
+      "seed": 1500924,
+      "start": [
+        48,
+        39
+      ],
+      "goal": [
+        3,
+        34
+      ],
+      "obstacles": [
+        {
+          "x": 39,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 43,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 18,
+          "y": 31,
+          "size": 9
+        },
+        {
+          "x": 18,
+          "y": 11,
+          "size": 9
+        },
+        {
+          "x": 29,
+          "y": 22,
+          "size": 9
+        },
+        {
+          "x": 44,
+          "y": 21,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 50
+    },
+    {
+      "id": "validation_0064",
+      "difficulty": "medium",
+      "seed": 1508843,
+      "start": [
+        17,
+        3
+      ],
+      "goal": [
+        32,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 10,
+          "y": 27,
+          "size": 9
+        },
+        {
+          "x": 11,
+          "y": 6,
+          "size": 5
+        },
+        {
+          "x": 22,
+          "y": 25,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 30,
+          "y": 13,
+          "size": 9
+        },
+        {
+          "x": 5,
+          "y": 40,
+          "size": 7
+        },
+        {
+          "x": 34,
+          "y": 32,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0065",
+      "difficulty": "hard",
+      "seed": 1516762,
+      "start": [
+        48,
+        36
+      ],
+      "goal": [
+        3,
+        18
+      ],
+      "obstacles": [
+        {
+          "x": 46,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 15,
+          "y": 9,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 30,
+          "size": 5
+        },
+        {
+          "x": 30,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 34,
+          "y": 41,
+          "size": 7
+        },
+        {
+          "x": 28,
+          "y": 10,
+          "size": 7
+        },
+        {
+          "x": 8,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 18,
+          "y": 46,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 24,
+          "y": 35,
+          "size": 7
+        },
+        {
+          "x": 12,
+          "y": 27,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0066",
+      "difficulty": "easy",
+      "seed": 1524681,
+      "start": [
+        3,
+        20
+      ],
+      "goal": [
+        48,
+        32
+      ],
+      "obstacles": [
+        {
+          "x": 21,
+          "y": 8,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 40,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 31,
+          "y": 30,
+          "size": 9
+        },
+        {
+          "x": 16,
+          "y": 42,
+          "size": 11
+        },
+        {
+          "x": 29,
+          "y": 44,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 57
+    },
+    {
+      "id": "validation_0067",
+      "difficulty": "medium",
+      "seed": 1532600,
+      "start": [
+        3,
+        31
+      ],
+      "goal": [
+        48,
+        22
+      ],
+      "obstacles": [
+        {
+          "x": 38,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 13,
+          "y": 11,
+          "size": 5
+        },
+        {
+          "x": 20,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 36,
+          "y": 9,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 26,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 35,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 19,
+          "y": 42,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0068",
+      "difficulty": "hard",
+      "seed": 1540519,
+      "start": [
+        10,
+        48
+      ],
+      "goal": [
+        37,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 8,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 14,
+          "y": 39,
+          "size": 5
+        },
+        {
+          "x": 12,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 30,
+          "y": 42,
+          "size": 5
+        },
+        {
+          "x": 38,
+          "y": 17,
+          "size": 7
+        },
+        {
+          "x": 28,
+          "y": 13,
+          "size": 7
+        },
+        {
+          "x": 37,
+          "y": 44,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 17,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 5,
+          "y": 24,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 72
+    },
+    {
+      "id": "validation_0069",
+      "difficulty": "easy",
+      "seed": 1548438,
+      "start": [
+        30,
+        48
+      ],
+      "goal": [
+        3,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 5,
+          "y": 24,
+          "size": 7
+        },
+        {
+          "x": 25,
+          "y": 40,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 24,
+          "y": 29,
+          "size": 11
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "size": 11
+        },
+        {
+          "x": 44,
+          "y": 33,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 72
+    },
+    {
+      "id": "validation_0070",
+      "difficulty": "medium",
+      "seed": 1556357,
+      "start": [
+        48,
+        6
+      ],
+      "goal": [
+        3,
+        11
+      ],
+      "obstacles": [
+        {
+          "x": 5,
+          "y": 24,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 14,
+          "size": 5
+        },
+        {
+          "x": 44,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 11,
+          "y": 41,
+          "size": 7
+        },
+        {
+          "x": 14,
+          "y": 23,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 16,
+          "size": 9
+        },
+        {
+          "x": 42,
+          "y": 25,
+          "size": 7
+        },
+        {
+          "x": 31,
+          "y": 42,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 50
+    },
+    {
+      "id": "validation_0071",
+      "difficulty": "hard",
+      "seed": 1564276,
+      "start": [
+        6,
+        3
+      ],
+      "goal": [
+        23,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 42,
+          "y": 14,
+          "size": 5
+        },
+        {
+          "x": 20,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 44,
+          "size": 5
+        },
+        {
+          "x": 37,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 14,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 47,
+          "y": 24,
+          "size": 5
+        },
+        {
+          "x": 19,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 35,
+          "y": 9,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 18,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 62
+    },
+    {
+      "id": "validation_0072",
+      "difficulty": "easy",
+      "seed": 1572195,
+      "start": [
+        48,
+        25
+      ],
+      "goal": [
+        3,
+        27
+      ],
+      "obstacles": [
+        {
+          "x": 41,
+          "y": 7,
+          "size": 5
+        },
+        {
+          "x": 11,
+          "y": 23,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 30,
+          "size": 9
+        },
+        {
+          "x": 28,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 41,
+          "y": 31,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 47
+    },
+    {
+      "id": "validation_0073",
+      "difficulty": "medium",
+      "seed": 1580114,
+      "start": [
+        7,
+        3
+      ],
+      "goal": [
+        28,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 11,
+          "y": 42,
+          "size": 9
+        },
+        {
+          "x": 44,
+          "y": 21,
+          "size": 5
+        },
+        {
+          "x": 36,
+          "y": 27,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 23,
+          "y": 26,
+          "size": 9
+        },
+        {
+          "x": 6,
+          "y": 10,
+          "size": 7
+        },
+        {
+          "x": 40,
+          "y": 37,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 66
+    },
+    {
+      "id": "validation_0074",
+      "difficulty": "hard",
+      "seed": 1588033,
+      "start": [
+        26,
+        48
+      ],
+      "goal": [
+        3,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 37,
+          "y": 45,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 14,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 44,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 16,
+          "y": 17,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 28,
+          "y": 26,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 68
+    },
+    {
+      "id": "validation_0075",
+      "difficulty": "easy",
+      "seed": 1595952,
+      "start": [
+        3,
+        40
+      ],
+      "goal": [
+        48,
+        42
+      ],
+      "obstacles": [
+        {
+          "x": 33,
+          "y": 23,
+          "size": 7
+        },
+        {
+          "x": 10,
+          "y": 24,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 22,
+          "y": 36,
+          "size": 11
+        },
+        {
+          "x": 23,
+          "y": 10,
+          "size": 11
+        },
+        {
+          "x": 44,
+          "y": 13,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 47
+    },
+    {
+      "id": "validation_0076",
+      "difficulty": "medium",
+      "seed": 1603871,
+      "start": [
+        45,
+        48
+      ],
+      "goal": [
+        31,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 39,
+          "y": 12,
+          "size": 9
+        },
+        {
+          "x": 8,
+          "y": 19,
+          "size": 9
+        },
+        {
+          "x": 19,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 22,
+          "y": 42,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 45,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 29,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 59
+    },
+    {
+      "id": "validation_0077",
+      "difficulty": "hard",
+      "seed": 1611790,
+      "start": [
+        13,
+        3
+      ],
+      "goal": [
+        41,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 24,
+          "y": 23,
+          "size": 5
+        },
+        {
+          "x": 36,
+          "y": 37,
+          "size": 7
+        },
+        {
+          "x": 47,
+          "y": 23,
+          "size": 5
+        },
+        {
+          "x": 10,
+          "y": 44,
+          "size": 5
+        },
+        {
+          "x": 12,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 35,
+          "y": 45,
+          "size": 7
+        },
+        {
+          "x": 13,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 46,
+          "y": 13,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 36,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 23,
+          "y": 37,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 73
+    },
+    {
+      "id": "validation_0078",
+      "difficulty": "easy",
+      "seed": 1619709,
+      "start": [
+        31,
+        48
+      ],
+      "goal": [
+        34,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 26,
+          "y": 5,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 37,
+          "y": 22,
+          "size": 11
+        },
+        {
+          "x": 11,
+          "y": 44,
+          "size": 9
+        },
+        {
+          "x": 36,
+          "y": 36,
+          "size": 9
+        },
+        {
+          "x": 11,
+          "y": 25,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 48
+    },
+    {
+      "id": "validation_0079",
+      "difficulty": "medium",
+      "seed": 1627628,
+      "start": [
+        31,
+        3
+      ],
+      "goal": [
+        40,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 32,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 41,
+          "y": 16,
+          "size": 5
+        },
+        {
+          "x": 8,
+          "y": 34,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 42,
+          "y": 28,
+          "size": 9
+        },
+        {
+          "x": 16,
+          "y": 19,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0080",
+      "difficulty": "hard",
+      "seed": 1635547,
+      "start": [
+        16,
+        48
+      ],
+      "goal": [
+        36,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 33,
+          "y": 34,
+          "size": 7
+        },
+        {
+          "x": 24,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 39,
+          "y": 15,
+          "size": 7
+        },
+        {
+          "x": 41,
+          "y": 40,
+          "size": 5
+        },
+        {
+          "x": 33,
+          "y": 47,
+          "size": 5
+        },
+        {
+          "x": 17,
+          "y": 26,
+          "size": 5
+        },
+        {
+          "x": 17,
+          "y": 33,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 20,
+          "y": 16,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 65
+    },
+    {
+      "id": "validation_0081",
+      "difficulty": "easy",
+      "seed": 1643466,
+      "start": [
+        48,
+        45
+      ],
+      "goal": [
+        3,
+        15
+      ],
+      "obstacles": [
+        {
+          "x": 9,
+          "y": 7,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 23,
+          "y": 32,
+          "size": 11
+        },
+        {
+          "x": 29,
+          "y": 43,
+          "size": 9
+        },
+        {
+          "x": 10,
+          "y": 26,
+          "size": 11
+        },
+        {
+          "x": 38,
+          "y": 24,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 75
+    },
+    {
+      "id": "validation_0082",
+      "difficulty": "medium",
+      "seed": 1651385,
+      "start": [
+        3,
+        8
+      ],
+      "goal": [
+        48,
+        27
+      ],
+      "obstacles": [
+        {
+          "x": 31,
+          "y": 22,
+          "size": 5
+        },
+        {
+          "x": 5,
+          "y": 28,
+          "size": 7
+        },
+        {
+          "x": 12,
+          "y": 11,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 32,
+          "y": 30,
+          "size": 9
+        },
+        {
+          "x": 7,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 39,
+          "y": 41,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 64
+    },
+    {
+      "id": "validation_0083",
+      "difficulty": "hard",
+      "seed": 1659304,
+      "start": [
+        39,
+        48
+      ],
+      "goal": [
+        3,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 21,
+          "y": 22,
+          "size": 7
+        },
+        {
+          "x": 11,
+          "y": 22,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 46,
+          "size": 7
+        },
+        {
+          "x": 37,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 21,
+          "size": 5
+        },
+        {
+          "x": 31,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 38,
+          "y": 40,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 5,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 28,
+          "y": 15,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 32,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 81
+    },
+    {
+      "id": "validation_0084",
+      "difficulty": "easy",
+      "seed": 1667223,
+      "start": [
+        48,
+        43
+      ],
+      "goal": [
+        3,
+        17
+      ],
+      "obstacles": [
+        {
+          "x": 26,
+          "y": 17,
+          "size": 5
+        },
+        {
+          "x": 32,
+          "y": 5,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 14,
+          "y": 25,
+          "size": 9
+        },
+        {
+          "x": 24,
+          "y": 41,
+          "size": 11
+        },
+        {
+          "x": 29,
+          "y": 30,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 71
+    },
+    {
+      "id": "validation_0085",
+      "difficulty": "medium",
+      "seed": 1675142,
+      "start": [
+        48,
+        37
+      ],
+      "goal": [
+        3,
+        24
+      ],
+      "obstacles": [
+        {
+          "x": 9,
+          "y": 45,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 13,
+          "size": 9
+        },
+        {
+          "x": 6,
+          "y": 30,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 31,
+          "y": 25,
+          "size": 7
+        },
+        {
+          "x": 33,
+          "y": 44,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 58
+    },
+    {
+      "id": "validation_0086",
+      "difficulty": "hard",
+      "seed": 1683061,
+      "start": [
+        20,
+        3
+      ],
+      "goal": [
+        12,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 4,
+          "y": 25,
+          "size": 5
+        },
+        {
+          "x": 33,
+          "y": 16,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 12,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 42,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 44,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 24,
+          "y": 19,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 30,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 53
+    },
+    {
+      "id": "validation_0087",
+      "difficulty": "easy",
+      "seed": 1690980,
+      "start": [
+        3,
+        10
+      ],
+      "goal": [
+        48,
+        11
+      ],
+      "obstacles": [
+        {
+          "x": 37,
+          "y": 18,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 15,
+          "size": 9
+        },
+        {
+          "x": 9,
+          "y": 40,
+          "size": 11
+        },
+        {
+          "x": 21,
+          "y": 30,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 46
+    },
+    {
+      "id": "validation_0088",
+      "difficulty": "medium",
+      "seed": 1698899,
+      "start": [
+        19,
+        48
+      ],
+      "goal": [
+        4,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 42,
+          "y": 38,
+          "size": 7
+        },
+        {
+          "x": 40,
+          "y": 26,
+          "size": 9
+        },
+        {
+          "x": 25,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 21,
+          "y": 43,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 18,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 19,
+          "y": 19,
+          "size": 7
+        },
+        {
+          "x": 17,
+          "y": 35,
+          "size": 7
+        },
+        {
+          "x": 36,
+          "y": 14,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0089",
+      "difficulty": "hard",
+      "seed": 1706818,
+      "start": [
+        7,
+        48
+      ],
+      "goal": [
+        39,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 17,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 30,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 29,
+          "y": 38,
+          "size": 5
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "size": 5
+        },
+        {
+          "x": 45,
+          "y": 37,
+          "size": 7
+        },
+        {
+          "x": 22,
+          "y": 34,
+          "size": 5
+        },
+        {
+          "x": 24,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 15,
+          "y": 25,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 35,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 44,
+          "y": 23,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 77
+    },
+    {
+      "id": "validation_0090",
+      "difficulty": "easy",
+      "seed": 1714737,
+      "start": [
+        9,
+        48
+      ],
+      "goal": [
+        40,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 44,
+          "y": 25,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 32,
+          "y": 18,
+          "size": 11
+        },
+        {
+          "x": 17,
+          "y": 26,
+          "size": 11
+        },
+        {
+          "x": 10,
+          "y": 13,
+          "size": 11
+        },
+        {
+          "x": 30,
+          "y": 41,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 76
+    },
+    {
+      "id": "validation_0091",
+      "difficulty": "medium",
+      "seed": 1722656,
+      "start": [
+        48,
+        30
+      ],
+      "goal": [
+        3,
+        28
+      ],
+      "obstacles": [
+        {
+          "x": 21,
+          "y": 7,
+          "size": 9
+        },
+        {
+          "x": 19,
+          "y": 40,
+          "size": 5
+        },
+        {
+          "x": 39,
+          "y": 30,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 16,
+          "y": 23,
+          "size": 9
+        },
+        {
+          "x": 27,
+          "y": 28,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 49
+    },
+    {
+      "id": "validation_0092",
+      "difficulty": "hard",
+      "seed": 1730575,
+      "start": [
+        29,
+        3
+      ],
+      "goal": [
+        18,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 20,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 38,
+          "size": 7
+        },
+        {
+          "x": 6,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 32,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 42,
+          "y": 22,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 12,
+          "y": 24,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 56
+    },
+    {
+      "id": "validation_0093",
+      "difficulty": "easy",
+      "seed": 1738494,
+      "start": [
+        32,
+        48
+      ],
+      "goal": [
+        14,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 45,
+          "y": 34,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 22,
+          "y": 18,
+          "size": 9
+        },
+        {
+          "x": 32,
+          "y": 20,
+          "size": 9
+        },
+        {
+          "x": 9,
+          "y": 40,
+          "size": 11
+        },
+        {
+          "x": 23,
+          "y": 39,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0094",
+      "difficulty": "medium",
+      "seed": 1746413,
+      "start": [
+        48,
+        6
+      ],
+      "goal": [
+        3,
+        8
+      ],
+      "obstacles": [
+        {
+          "x": 36,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 25,
+          "y": 14,
+          "size": 7
+        },
+        {
+          "x": 47,
+          "y": 39,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 15,
+          "y": 15,
+          "size": 9
+        },
+        {
+          "x": 39,
+          "y": 15,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 47
+    },
+    {
+      "id": "validation_0095",
+      "difficulty": "hard",
+      "seed": 1754332,
+      "start": [
+        22,
+        3
+      ],
+      "goal": [
+        37,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 37,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 6,
+          "y": 25,
+          "size": 5
+        },
+        {
+          "x": 13,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 13,
+          "y": 38,
+          "size": 7
+        },
+        {
+          "x": 21,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 11,
+          "y": 9,
+          "size": 7
+        },
+        {
+          "x": 22,
+          "y": 17,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 22,
+          "y": 39,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0096",
+      "difficulty": "easy",
+      "seed": 1762251,
+      "start": [
+        3,
+        25
+      ],
+      "goal": [
+        48,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 29,
+          "y": 29,
+          "size": 5
+        },
+        {
+          "x": 25,
+          "y": 18,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 15,
+          "y": 35,
+          "size": 9
+        },
+        {
+          "x": 38,
+          "y": 43,
+          "size": 11
+        },
+        {
+          "x": 38,
+          "y": 24,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 68
+    },
+    {
+      "id": "validation_0097",
+      "difficulty": "medium",
+      "seed": 1770170,
+      "start": [
+        40,
+        48
+      ],
+      "goal": [
+        19,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 20,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 10,
+          "y": 20,
+          "size": 9
+        },
+        {
+          "x": 41,
+          "y": 18,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 41,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 9,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 66
+    },
+    {
+      "id": "validation_0098",
+      "difficulty": "hard",
+      "seed": 1778089,
+      "start": [
+        30,
+        3
+      ],
+      "goal": [
+        48,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 12,
+          "y": 19,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 16,
+          "y": 31,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 24,
+          "size": 7
+        },
+        {
+          "x": 18,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 25,
+          "y": 28,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 42,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 30,
+          "y": 37,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0099",
+      "difficulty": "easy",
+      "seed": 1786008,
+      "start": [
+        14,
+        48
+      ],
+      "goal": [
+        11,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 30,
+          "y": 35,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 15,
+          "y": 36,
+          "size": 9
+        },
+        {
+          "x": 29,
+          "y": 12,
+          "size": 11
+        },
+        {
+          "x": 36,
+          "y": 24,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 48
+    },
+    {
+      "id": "validation_0100",
+      "difficulty": "medium",
+      "seed": 1793927,
+      "start": [
+        3,
+        44
+      ],
+      "goal": [
+        48,
+        29
+      ],
+      "obstacles": [
+        {
+          "x": 24,
+          "y": 39,
+          "size": 5
+        },
+        {
+          "x": 37,
+          "y": 34,
+          "size": 7
+        },
+        {
+          "x": 46,
+          "y": 17,
+          "size": 5
+        },
+        {
+          "x": 18,
+          "y": 6,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 15,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 30,
+          "y": 15,
+          "size": 9
+        },
+        {
+          "x": 31,
+          "y": 44,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0101",
+      "difficulty": "hard",
+      "seed": 1801846,
+      "start": [
+        48,
+        10
+      ],
+      "goal": [
+        3,
+        22
+      ],
+      "obstacles": [
+        {
+          "x": 15,
+          "y": 45,
+          "size": 7
+        },
+        {
+          "x": 47,
+          "y": 30,
+          "size": 5
+        },
+        {
+          "x": 36,
+          "y": 16,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 35,
+          "size": 5
+        },
+        {
+          "x": 12,
+          "y": 18,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 31,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 41,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 4,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 57
+    },
+    {
+      "id": "validation_0102",
+      "difficulty": "easy",
+      "seed": 1809765,
+      "start": [
+        48,
+        11
+      ],
+      "goal": [
+        3,
+        24
+      ],
+      "obstacles": [
+        {
+          "x": 15,
+          "y": 14,
+          "size": 5
+        },
+        {
+          "x": 38,
+          "y": 41,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 33,
+          "y": 12,
+          "size": 9
+        },
+        {
+          "x": 23,
+          "y": 35,
+          "size": 11
+        },
+        {
+          "x": 10,
+          "y": 42,
+          "size": 11
+        },
+        {
+          "x": 10,
+          "y": 31,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 58
+    },
+    {
+      "id": "validation_0103",
+      "difficulty": "medium",
+      "seed": 1817684,
+      "start": [
+        3,
+        4
+      ],
+      "goal": [
+        48,
+        28
+      ],
+      "obstacles": [
+        {
+          "x": 6,
+          "y": 41,
+          "size": 9
+        },
+        {
+          "x": 35,
+          "y": 21,
+          "size": 9
+        },
+        {
+          "x": 39,
+          "y": 41,
+          "size": 5
+        },
+        {
+          "x": 39,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 19,
+          "y": 34,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 25,
+          "size": 9
+        },
+        {
+          "x": 10,
+          "y": 13,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 69
+    },
+    {
+      "id": "validation_0104",
+      "difficulty": "hard",
+      "seed": 1825603,
+      "start": [
+        13,
+        48
+      ],
+      "goal": [
+        48,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 12,
+          "y": 35,
+          "size": 7
+        },
+        {
+          "x": 14,
+          "y": 24,
+          "size": 7
+        },
+        {
+          "x": 46,
+          "y": 10,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 22,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 33,
+          "size": 5
+        },
+        {
+          "x": 4,
+          "y": 43,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 15,
+          "size": 7
+        },
+        {
+          "x": 47,
+          "y": 38,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 80
+    },
+    {
+      "id": "validation_0105",
+      "difficulty": "easy",
+      "seed": 1833522,
+      "start": [
+        48,
+        14
+      ],
+      "goal": [
+        3,
+        10
+      ],
+      "obstacles": [
+        {
+          "x": 45,
+          "y": 36,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 31,
+          "y": 15,
+          "size": 9
+        },
+        {
+          "x": 23,
+          "y": 44,
+          "size": 9
+        },
+        {
+          "x": 40,
+          "y": 44,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 49
+    },
+    {
+      "id": "validation_0106",
+      "difficulty": "medium",
+      "seed": 1841441,
+      "start": [
+        43,
+        48
+      ],
+      "goal": [
+        6,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 37,
+          "y": 44,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 45,
+          "size": 9
+        },
+        {
+          "x": 18,
+          "y": 6,
+          "size": 5
+        },
+        {
+          "x": 20,
+          "y": 45,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 14,
+          "size": 7
+        },
+        {
+          "x": 35,
+          "y": 14,
+          "size": 7
+        },
+        {
+          "x": 36,
+          "y": 29,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 82
+    },
+    {
+      "id": "validation_0107",
+      "difficulty": "hard",
+      "seed": 1849360,
+      "start": [
+        27,
+        3
+      ],
+      "goal": [
+        40,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 21,
+          "y": 4,
+          "size": 5
+        },
+        {
+          "x": 14,
+          "y": 15,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 31,
+          "y": 35,
+          "size": 5
+        },
+        {
+          "x": 46,
+          "y": 24,
+          "size": 5
+        },
+        {
+          "x": 33,
+          "y": 25,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 21,
+          "y": 24,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 37,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 58
+    },
+    {
+      "id": "validation_0108",
+      "difficulty": "easy",
+      "seed": 1857279,
+      "start": [
+        48,
+        46
+      ],
+      "goal": [
+        3,
+        33
+      ],
+      "obstacles": [
+        {
+          "x": 23,
+          "y": 20,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 32,
+          "y": 44,
+          "size": 9
+        },
+        {
+          "x": 43,
+          "y": 25,
+          "size": 11
+        },
+        {
+          "x": 15,
+          "y": 43,
+          "size": 9
+        },
+        {
+          "x": 14,
+          "y": 9,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 58
+    },
+    {
+      "id": "validation_0109",
+      "difficulty": "medium",
+      "seed": 1865198,
+      "start": [
+        3,
+        11
+      ],
+      "goal": [
+        48,
+        17
+      ],
+      "obstacles": [
+        {
+          "x": 17,
+          "y": 15,
+          "size": 9
+        },
+        {
+          "x": 40,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 6,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 22,
+          "y": 25,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 36,
+          "y": 11,
+          "size": 9
+        },
+        {
+          "x": 17,
+          "y": 36,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 53
+    },
+    {
+      "id": "validation_0110",
+      "difficulty": "hard",
+      "seed": 1873117,
+      "start": [
+        17,
+        3
+      ],
+      "goal": [
+        40,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 37,
+          "y": 22,
+          "size": 5
+        },
+        {
+          "x": 8,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 37,
+          "y": 42,
+          "size": 7
+        },
+        {
+          "x": 38,
+          "y": 15,
+          "size": 5
+        },
+        {
+          "x": 5,
+          "y": 47,
+          "size": 5
+        },
+        {
+          "x": 27,
+          "y": 13,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 15,
+          "y": 28,
+          "size": 5
+        },
+        {
+          "x": 36,
+          "y": 7,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 68
+    },
+    {
+      "id": "validation_0111",
+      "difficulty": "easy",
+      "seed": 1881036,
+      "start": [
+        3,
+        12
+      ],
+      "goal": [
+        48,
+        11
+      ],
+      "obstacles": [
+        {
+          "x": 23,
+          "y": 47,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 34,
+          "y": 9,
+          "size": 11
+        },
+        {
+          "x": 34,
+          "y": 44,
+          "size": 9
+        },
+        {
+          "x": 44,
+          "y": 38,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 46
+    },
+    {
+      "id": "validation_0112",
+      "difficulty": "medium",
+      "seed": 1888955,
+      "start": [
+        3,
+        24
+      ],
+      "goal": [
+        48,
+        35
+      ],
+      "obstacles": [
+        {
+          "x": 45,
+          "y": 29,
+          "size": 5
+        },
+        {
+          "x": 42,
+          "y": 13,
+          "size": 9
+        },
+        {
+          "x": 23,
+          "y": 11,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 14,
+          "y": 34,
+          "size": 7
+        },
+        {
+          "x": 31,
+          "y": 40,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 21,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 56
+    },
+    {
+      "id": "validation_0113",
+      "difficulty": "hard",
+      "seed": 1896874,
+      "start": [
+        48,
+        4
+      ],
+      "goal": [
+        3,
+        5
+      ],
+      "obstacles": [
+        {
+          "x": 39,
+          "y": 11,
+          "size": 5
+        },
+        {
+          "x": 19,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 43,
+          "size": 7
+        },
+        {
+          "x": 11,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 43,
+          "y": 23,
+          "size": 5
+        },
+        {
+          "x": 39,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 21,
+          "size": 7
+        },
+        {
+          "x": 38,
+          "y": 30,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 32,
+          "y": 12,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 46
+    },
+    {
+      "id": "validation_0114",
+      "difficulty": "easy",
+      "seed": 1904793,
+      "start": [
+        3,
+        3
+      ],
+      "goal": [
+        48,
+        11
+      ],
+      "obstacles": [
+        {
+          "x": 29,
+          "y": 29,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 23,
+          "y": 10,
+          "size": 11
+        },
+        {
+          "x": 35,
+          "y": 9,
+          "size": 9
+        },
+        {
+          "x": 43,
+          "y": 39,
+          "size": 11
+        },
+        {
+          "x": 9,
+          "y": 40,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 53
+    },
+    {
+      "id": "validation_0115",
+      "difficulty": "medium",
+      "seed": 1912712,
+      "start": [
+        5,
+        48
+      ],
+      "goal": [
+        38,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 41,
+          "y": 33,
+          "size": 9
+        },
+        {
+          "x": 32,
+          "y": 20,
+          "size": 9
+        },
+        {
+          "x": 19,
+          "y": 37,
+          "size": 9
+        },
+        {
+          "x": 32,
+          "y": 34,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 7,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 22,
+          "y": 17,
+          "size": 9
+        },
+        {
+          "x": 8,
+          "y": 34,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 78
+    },
+    {
+      "id": "validation_0116",
+      "difficulty": "hard",
+      "seed": 1920631,
+      "start": [
+        3,
+        17
+      ],
+      "goal": [
+        48,
+        34
+      ],
+      "obstacles": [
+        {
+          "x": 46,
+          "y": 12,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 13,
+          "y": 26,
+          "size": 7
+        },
+        {
+          "x": 38,
+          "y": 20,
+          "size": 7
+        },
+        {
+          "x": 25,
+          "y": 32,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 11,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 62
+    },
+    {
+      "id": "validation_0117",
+      "difficulty": "easy",
+      "seed": 1928550,
+      "start": [
+        48,
+        48
+      ],
+      "goal": [
+        3,
+        4
+      ],
+      "obstacles": [
+        {
+          "x": 23,
+          "y": 31,
+          "size": 7
+        },
+        {
+          "x": 34,
+          "y": 24,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 20,
+          "y": 14,
+          "size": 11
+        },
+        {
+          "x": 42,
+          "y": 12,
+          "size": 9
+        },
+        {
+          "x": 38,
+          "y": 36,
+          "size": 9
+        },
+        {
+          "x": 7,
+          "y": 27,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 89
+    },
+    {
+      "id": "validation_0118",
+      "difficulty": "medium",
+      "seed": 1936469,
+      "start": [
+        38,
+        3
+      ],
+      "goal": [
+        23,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 17,
+          "y": 20,
+          "size": 9
+        },
+        {
+          "x": 12,
+          "y": 30,
+          "size": 5
+        },
+        {
+          "x": 9,
+          "y": 46,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 13,
+          "size": 9
+        },
+        {
+          "x": 46,
+          "y": 5,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0119",
+      "difficulty": "hard",
+      "seed": 1944388,
+      "start": [
+        48,
+        45
+      ],
+      "goal": [
+        3,
+        39
+      ],
+      "obstacles": [
+        {
+          "x": 8,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 9,
+          "y": 29,
+          "size": 5
+        },
+        {
+          "x": 44,
+          "y": 5,
+          "size": 7
+        },
+        {
+          "x": 22,
+          "y": 42,
+          "size": 7
+        },
+        {
+          "x": 34,
+          "y": 39,
+          "size": 5
+        },
+        {
+          "x": 27,
+          "y": 24,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 15,
+          "size": 5
+        },
+        {
+          "x": 46,
+          "y": 27,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 18,
+          "y": 31,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 11,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 53
+    },
+    {
+      "id": "validation_0120",
+      "difficulty": "easy",
+      "seed": 1952307,
+      "start": [
+        3,
+        6
+      ],
+      "goal": [
+        48,
+        24
+      ],
+      "obstacles": [
+        {
+          "x": 30,
+          "y": 14,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 32,
+          "y": 22,
+          "size": 9
+        },
+        {
+          "x": 20,
+          "y": 36,
+          "size": 9
+        },
+        {
+          "x": 14,
+          "y": 15,
+          "size": 9
+        },
+        {
+          "x": 39,
+          "y": 33,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0121",
+      "difficulty": "medium",
+      "seed": 1960226,
+      "start": [
+        3,
+        7
+      ],
+      "goal": [
+        48,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 17,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 33,
+          "y": 10,
+          "size": 9
+        },
+        {
+          "x": 38,
+          "y": 46,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 36,
+          "y": 24,
+          "size": 7
+        },
+        {
+          "x": 7,
+          "y": 40,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 86
+    },
+    {
+      "id": "validation_0122",
+      "difficulty": "hard",
+      "seed": 1968145,
+      "start": [
+        18,
+        48
+      ],
+      "goal": [
+        8,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 15,
+          "y": 15,
+          "size": 7
+        },
+        {
+          "x": 7,
+          "y": 43,
+          "size": 5
+        },
+        {
+          "x": 22,
+          "y": 20,
+          "size": 5
+        },
+        {
+          "x": 10,
+          "y": 8,
+          "size": 5
+        },
+        {
+          "x": 31,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 40,
+          "y": 44,
+          "size": 5
+        },
+        {
+          "x": 33,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 40,
+          "y": 19,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 30,
+          "size": 7
+        },
+        {
+          "x": 36,
+          "y": 26,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 57
+    },
+    {
+      "id": "validation_0123",
+      "difficulty": "easy",
+      "seed": 1976064,
+      "start": [
+        48,
+        19
+      ],
+      "goal": [
+        3,
+        30
+      ],
+      "obstacles": [
+        {
+          "x": 9,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 15,
+          "y": 35,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 34,
+          "y": 18,
+          "size": 11
+        },
+        {
+          "x": 7,
+          "y": 7,
+          "size": 9
+        },
+        {
+          "x": 36,
+          "y": 30,
+          "size": 9
+        },
+        {
+          "x": 21,
+          "y": 7,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 56
+    },
+    {
+      "id": "validation_0124",
+      "difficulty": "medium",
+      "seed": 1983983,
+      "start": [
+        3,
+        19
+      ],
+      "goal": [
+        48,
+        27
+      ],
+      "obstacles": [
+        {
+          "x": 41,
+          "y": 18,
+          "size": 7
+        },
+        {
+          "x": 42,
+          "y": 43,
+          "size": 9
+        },
+        {
+          "x": 23,
+          "y": 46,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 14,
+          "y": 26,
+          "size": 7
+        },
+        {
+          "x": 24,
+          "y": 27,
+          "size": 9
+        },
+        {
+          "x": 23,
+          "y": 12,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 53
+    },
+    {
+      "id": "validation_0125",
+      "difficulty": "hard",
+      "seed": 1991902,
+      "start": [
+        48,
+        3
+      ],
+      "goal": [
+        3,
+        19
+      ],
+      "obstacles": [
+        {
+          "x": 38,
+          "y": 46,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 44,
+          "size": 7
+        },
+        {
+          "x": 23,
+          "y": 47,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 19,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 31,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 20,
+          "y": 23,
+          "size": 5
+        },
+        {
+          "x": 8,
+          "y": 16,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 61
+    },
+    {
+      "id": "validation_0126",
+      "difficulty": "easy",
+      "seed": 1999821,
+      "start": [
+        48,
+        5
+      ],
+      "goal": [
+        3,
+        33
+      ],
+      "obstacles": [
+        {
+          "x": 7,
+          "y": 11,
+          "size": 5
+        },
+        {
+          "x": 32,
+          "y": 21,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 14,
+          "y": 23,
+          "size": 11
+        },
+        {
+          "x": 36,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 22,
+          "y": 38,
+          "size": 11
+        },
+        {
+          "x": 44,
+          "y": 23,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 73
+    },
+    {
+      "id": "validation_0127",
+      "difficulty": "medium",
+      "seed": 2007740,
+      "start": [
+        48,
+        10
+      ],
+      "goal": [
+        3,
+        32
+      ],
+      "obstacles": [
+        {
+          "x": 28,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 39,
+          "y": 14,
+          "size": 9
+        },
+        {
+          "x": 12,
+          "y": 39,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 12,
+          "y": 21,
+          "size": 9
+        },
+        {
+          "x": 28,
+          "y": 26,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 67
+    },
+    {
+      "id": "validation_0128",
+      "difficulty": "hard",
+      "seed": 2015659,
+      "start": [
+        41,
+        3
+      ],
+      "goal": [
+        23,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 5,
+          "y": 26,
+          "size": 7
+        },
+        {
+          "x": 10,
+          "y": 14,
+          "size": 5
+        },
+        {
+          "x": 34,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 46,
+          "y": 44,
+          "size": 5
+        },
+        {
+          "x": 14,
+          "y": 32,
+          "size": 5
+        },
+        {
+          "x": 31,
+          "y": 22,
+          "size": 5
+        },
+        {
+          "x": 24,
+          "y": 37,
+          "size": 5
+        },
+        {
+          "x": 14,
+          "y": 42,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 22,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0129",
+      "difficulty": "easy",
+      "seed": 2023578,
+      "start": [
+        3,
+        39
+      ],
+      "goal": [
+        48,
+        25
+      ],
+      "obstacles": [
+        {
+          "x": 35,
+          "y": 29,
+          "size": 5
+        },
+        {
+          "x": 43,
+          "y": 12,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 37,
+          "size": 11
+        },
+        {
+          "x": 39,
+          "y": 45,
+          "size": 9
+        },
+        {
+          "x": 25,
+          "y": 24,
+          "size": 9
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 59
+    },
+    {
+      "id": "validation_0130",
+      "difficulty": "medium",
+      "seed": 2031497,
+      "start": [
+        3,
+        24
+      ],
+      "goal": [
+        48,
+        41
+      ],
+      "obstacles": [
+        {
+          "x": 47,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 29,
+          "y": 8,
+          "size": 9
+        },
+        {
+          "x": 17,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 26,
+          "y": 24,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 36,
+          "y": 28,
+          "size": 9
+        },
+        {
+          "x": 18,
+          "y": 36,
+          "size": 9
+        },
+        {
+          "x": 16,
+          "y": 14,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 62
+    },
+    {
+      "id": "validation_0131",
+      "difficulty": "hard",
+      "seed": 2039416,
+      "start": [
+        3,
+        31
+      ],
+      "goal": [
+        48,
+        4
+      ],
+      "obstacles": [
+        {
+          "x": 31,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 16,
+          "y": 45,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 43,
+          "size": 5
+        },
+        {
+          "x": 43,
+          "y": 26,
+          "size": 7
+        },
+        {
+          "x": 44,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 13,
+          "y": 13,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 34,
+          "y": 25,
+          "size": 7
+        },
+        {
+          "x": 41,
+          "y": 7,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 72
+    },
+    {
+      "id": "validation_0132",
+      "difficulty": "easy",
+      "seed": 2047335,
+      "start": [
+        48,
+        31
+      ],
+      "goal": [
+        3,
+        44
+      ],
+      "obstacles": [
+        {
+          "x": 15,
+          "y": 19,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 18,
+          "y": 43,
+          "size": 11
+        },
+        {
+          "x": 21,
+          "y": 31,
+          "size": 9
+        },
+        {
+          "x": 10,
+          "y": 9,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 58
+    },
+    {
+      "id": "validation_0133",
+      "difficulty": "medium",
+      "seed": 2055254,
+      "start": [
+        9,
+        48
+      ],
+      "goal": [
+        18,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 45,
+          "y": 35,
+          "size": 5
+        },
+        {
+          "x": 19,
+          "y": 41,
+          "size": 5
+        },
+        {
+          "x": 46,
+          "y": 8,
+          "size": 7
+        },
+        {
+          "x": 6,
+          "y": 10,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 16,
+          "y": 32,
+          "size": 7
+        },
+        {
+          "x": 36,
+          "y": 33,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0134",
+      "difficulty": "hard",
+      "seed": 2063173,
+      "start": [
+        48,
+        34
+      ],
+      "goal": [
+        3,
+        19
+      ],
+      "obstacles": [
+        {
+          "x": 16,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 43,
+          "y": 6,
+          "size": 7
+        },
+        {
+          "x": 39,
+          "y": 40,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 41,
+          "size": 7
+        },
+        {
+          "x": 13,
+          "y": 10,
+          "size": 7
+        },
+        {
+          "x": 5,
+          "y": 38,
+          "size": 5
+        },
+        {
+          "x": 17,
+          "y": 21,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 17,
+          "y": 38,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 19,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 60
+    },
+    {
+      "id": "validation_0135",
+      "difficulty": "easy",
+      "seed": 2071092,
+      "start": [
+        48,
+        29
+      ],
+      "goal": [
+        3,
+        42
+      ],
+      "obstacles": [
+        {
+          "x": 28,
+          "y": 17,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 32,
+          "y": 30,
+          "size": 11
+        },
+        {
+          "x": 11,
+          "y": 11,
+          "size": 11
+        },
+        {
+          "x": 21,
+          "y": 40,
+          "size": 9
+        },
+        {
+          "x": 32,
+          "y": 7,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 58
+    },
+    {
+      "id": "validation_0136",
+      "difficulty": "medium",
+      "seed": 2079011,
+      "start": [
+        3,
+        25
+      ],
+      "goal": [
+        48,
+        6
+      ],
+      "obstacles": [
+        {
+          "x": 35,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 14,
+          "y": 28,
+          "size": 9
+        },
+        {
+          "x": 43,
+          "y": 17,
+          "size": 9
+        },
+        {
+          "x": 14,
+          "y": 43,
+          "size": 9
+        },
+        {
+          "x": 20,
+          "y": 9,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 34,
+          "y": 21,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 7,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 64
+    },
+    {
+      "id": "validation_0137",
+      "difficulty": "hard",
+      "seed": 2086930,
+      "start": [
+        41,
+        3
+      ],
+      "goal": [
+        35,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 6,
+          "y": 45,
+          "size": 7
+        },
+        {
+          "x": 14,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 21,
+          "y": 44,
+          "size": 5
+        },
+        {
+          "x": 29,
+          "y": 4,
+          "size": 5
+        },
+        {
+          "x": 31,
+          "y": 28,
+          "size": 5
+        },
+        {
+          "x": 4,
+          "y": 18,
+          "size": 5
+        },
+        {
+          "x": 36,
+          "y": 9,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 44,
+          "y": 36,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 20,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 51
+    },
+    {
+      "id": "validation_0138",
+      "difficulty": "easy",
+      "seed": 2094849,
+      "start": [
+        3,
+        6
+      ],
+      "goal": [
+        48,
+        15
+      ],
+      "obstacles": [
+        {
+          "x": 27,
+          "y": 24,
+          "size": 5
+        },
+        {
+          "x": 47,
+          "y": 45,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 25,
+          "y": 15,
+          "size": 11
+        },
+        {
+          "x": 7,
+          "y": 32,
+          "size": 9
+        },
+        {
+          "x": 37,
+          "y": 18,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0139",
+      "difficulty": "medium",
+      "seed": 2110687,
+      "start": [
+        3,
+        15
+      ],
+      "goal": [
+        48,
+        6
+      ],
+      "obstacles": [
+        {
+          "x": 31,
+          "y": 7,
+          "size": 5
+        },
+        {
+          "x": 26,
+          "y": 38,
+          "size": 9
+        },
+        {
+          "x": 5,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 36,
+          "y": 28,
+          "size": 9
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 17,
+          "y": 16,
+          "size": 7
+        },
+        {
+          "x": 40,
+          "y": 44,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0140",
+      "difficulty": "hard",
+      "seed": 2118606,
+      "start": [
+        28,
+        3
+      ],
+      "goal": [
+        5,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 25,
+          "y": 46,
+          "size": 5
+        },
+        {
+          "x": 35,
+          "y": 13,
+          "size": 5
+        },
+        {
+          "x": 14,
+          "y": 4,
+          "size": 5
+        },
+        {
+          "x": 33,
+          "y": 37,
+          "size": 7
+        },
+        {
+          "x": 15,
+          "y": 37,
+          "size": 7
+        },
+        {
+          "x": 47,
+          "y": 6,
+          "size": 5
+        },
+        {
+          "x": 23,
+          "y": 4,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 6,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 26,
+          "y": 36,
+          "size": 5
+        },
+        {
+          "x": 41,
+          "y": 33,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 68
+    },
+    {
+      "id": "validation_0141",
+      "difficulty": "easy",
+      "seed": 2126525,
+      "start": [
+        3,
+        42
+      ],
+      "goal": [
+        48,
+        13
+      ],
+      "obstacles": [
+        {
+          "x": 20,
+          "y": 15,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 32,
+          "y": 21,
+          "size": 9
+        },
+        {
+          "x": 43,
+          "y": 39,
+          "size": 9
+        },
+        {
+          "x": 7,
+          "y": 34,
+          "size": 11
+        },
+        {
+          "x": 18,
+          "y": 43,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 74
+    },
+    {
+      "id": "validation_0142",
+      "difficulty": "medium",
+      "seed": 2134444,
+      "start": [
+        23,
+        3
+      ],
+      "goal": [
+        32,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 4,
+          "y": 34,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "size": 7
+        },
+        {
+          "x": 20,
+          "y": 27,
+          "size": 7
+        },
+        {
+          "x": 33,
+          "y": 15,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 21,
+          "y": 38,
+          "size": 9
+        },
+        {
+          "x": 31,
+          "y": 29,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 54
+    },
+    {
+      "id": "validation_0143",
+      "difficulty": "hard",
+      "seed": 2142363,
+      "start": [
+        45,
+        3
+      ],
+      "goal": [
+        27,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 46,
+          "y": 29,
+          "size": 7
+        },
+        {
+          "x": 11,
+          "y": 28,
+          "size": 7
+        },
+        {
+          "x": 27,
+          "y": 33,
+          "size": 7
+        },
+        {
+          "x": 10,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 46,
+          "y": 21,
+          "size": 5
+        },
+        {
+          "x": 36,
+          "y": 31,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 27,
+          "y": 17,
+          "size": 5
+        },
+        {
+          "x": 40,
+          "y": 12,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 63
+    },
+    {
+      "id": "validation_0144",
+      "difficulty": "easy",
+      "seed": 2150282,
+      "start": [
+        35,
+        48
+      ],
+      "goal": [
+        36,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 21,
+          "y": 34,
+          "size": 7
+        },
+        {
+          "x": 9,
+          "y": 39,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 31,
+          "y": 17,
+          "size": 11
+        },
+        {
+          "x": 13,
+          "y": 10,
+          "size": 11
+        },
+        {
+          "x": 7,
+          "y": 27,
+          "size": 9
+        },
+        {
+          "x": 31,
+          "y": 39,
+          "size": 9
+        }
+      ],
+      "shortest_path_length": 46
+    },
+    {
+      "id": "validation_0145",
+      "difficulty": "medium",
+      "seed": 2158201,
+      "start": [
+        14,
+        48
+      ],
+      "goal": [
+        41,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 5,
+          "y": 40,
+          "size": 5
+        },
+        {
+          "x": 43,
+          "y": 19,
+          "size": 7
+        },
+        {
+          "x": 6,
+          "y": 46,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 16,
+          "y": 31,
+          "size": 7
+        },
+        {
+          "x": 15,
+          "y": 15,
+          "size": 7
+        },
+        {
+          "x": 43,
+          "y": 40,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 72
+    },
+    {
+      "id": "validation_0146",
+      "difficulty": "hard",
+      "seed": 2166120,
+      "start": [
+        20,
+        48
+      ],
+      "goal": [
+        44,
+        3
+      ],
+      "obstacles": [
+        {
+          "x": 22,
+          "y": 13,
+          "size": 7
+        },
+        {
+          "x": 38,
+          "y": 9,
+          "size": 5
+        },
+        {
+          "x": 29,
+          "y": 39,
+          "size": 7
+        },
+        {
+          "x": 24,
+          "y": 21,
+          "size": 5
+        },
+        {
+          "x": 35,
+          "y": 25,
+          "size": 5
+        },
+        {
+          "x": 43,
+          "y": 39,
+          "size": 5
+        },
+        {
+          "x": 6,
+          "y": 45,
+          "size": 5
+        },
+        {
+          "x": 7,
+          "y": 5,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 18,
+          "y": 30,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 69
+    },
+    {
+      "id": "validation_0147",
+      "difficulty": "easy",
+      "seed": 2174039,
+      "start": [
+        38,
+        3
+      ],
+      "goal": [
+        14,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 44,
+          "y": 17,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 29,
+          "y": 23,
+          "size": 11
+        },
+        {
+          "x": 12,
+          "y": 11,
+          "size": 11
+        },
+        {
+          "x": 7,
+          "y": 33,
+          "size": 11
+        }
+      ],
+      "shortest_path_length": 69
+    },
+    {
+      "id": "validation_0148",
+      "difficulty": "medium",
+      "seed": 2181958,
+      "start": [
+        48,
+        12
+      ],
+      "goal": [
+        3,
+        13
+      ],
+      "obstacles": [
+        {
+          "x": 34,
+          "y": 28,
+          "size": 7
+        },
+        {
+          "x": 29,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 42,
+          "y": 5,
+          "size": 5
+        },
+        {
+          "x": 44,
+          "y": 38,
+          "size": 7
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 36,
+          "y": 18,
+          "size": 9
+        },
+        {
+          "x": 7,
+          "y": 44,
+          "size": 9
+        },
+        {
+          "x": 11,
+          "y": 20,
+          "size": 7
+        }
+      ],
+      "shortest_path_length": 46
+    },
+    {
+      "id": "validation_0149",
+      "difficulty": "hard",
+      "seed": 2189877,
+      "start": [
+        31,
+        3
+      ],
+      "goal": [
+        4,
+        48
+      ],
+      "obstacles": [
+        {
+          "x": 19,
+          "y": 27,
+          "size": 5
+        },
+        {
+          "x": 16,
+          "y": 12,
+          "size": 5
+        },
+        {
+          "x": 38,
+          "y": 40,
+          "size": 5
+        },
+        {
+          "x": 20,
+          "y": 37,
+          "size": 7
+        },
+        {
+          "x": 21,
+          "y": 19,
+          "size": 5
+        },
+        {
+          "x": 13,
+          "y": 20,
+          "size": 5
+        },
+        {
+          "x": 28,
+          "y": 28,
+          "size": 5
+        },
+        {
+          "x": 32,
+          "y": 39,
+          "size": 5
+        }
+      ],
+      "landmarks": [
+        {
+          "x": 6,
+          "y": 31,
+          "size": 5
+        }
+      ],
+      "shortest_path_length": 72
+    }
+  ]
+}
