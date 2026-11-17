@@ -1,7 +1,10 @@
-# When to Seek Landmarks?
+# When to Seek Landmarks? Learning Continuous Control with Sparse Landmark Localization
 
-Learning continuous robot control with sparse landmark localization. Includes
-CAPQL, preference-conditioned SAC (PC-SAC), fixed-weight SAC, and three RRT* planners.
+**Chinmay Mundane, Amith Manoharan, Arun Kumar Singh**  
+University of Tartu, Estonia
+
+
+![Robot navigation with sparse landmark localization](assets/runs_teaser_aruco_goal.gif)
 
 ## Setup
 
@@ -80,7 +83,6 @@ experiments/    # Training/evaluation runners, tables and plots
 data/           # Training, validation and test maps
 models/         # Place downloaded weights here
 results/        # Saved paper evaluations
-outputs/        # New evaluations, reports and plots (Git-ignored)
 morl_import/    # Required MORL-Baselines modules and license
 ```
 
